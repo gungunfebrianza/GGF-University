@@ -2,8 +2,6 @@
 
 
 
-
-
 ## Books :
 
 #### Belajar Dengan Jenius Deno - [Click](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-DenoTheWKWKLand)
@@ -16,5 +14,10 @@
 
 
 
-- [x] #### as
+## Blockchain :
 
+### Note :
+
+#### Visualized Blockchain - Fundamental Concept - [Click](https://medium.com/@hazekaizer/visualized-blockchain-fundamental-concept-131d9084c0b9)
+
+### Book :
