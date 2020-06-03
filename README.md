@@ -18,6 +18,7 @@
 
 - **Visual Hashing - [Click](https://github.com/gungunfebrianza/Visual-Hashing)**
 - **Stealth Monitor - [Click](https://github.com/gungunfebrianza/Security-Software-StealthMonitor)**
+- **USB Disk Security** - [Click](https://github.com/gungunfebrianza/USB-Disk-Security)
 
 ----------------------------------------------
 
@@ -53,6 +54,8 @@ Mastering Mongoose - [Click](https://github.com/gungunfebrianza/Mastering-Mongoo
 
 **Mastering JavaScript** - [Click](https://github.com/gungunfebrianza/Mastering-Javascript)
 
+**Cryptography Examples** - [Click](https://github.com/gungunfebrianza/Mastering-Cryptography)
+
 ### Node.js
 
 **Mastering Node.js** - [Click](https://github.com/gungunfebrianza/Mastering-Node.js)
@@ -73,11 +76,15 @@ Mastering Mongoose - [Click](https://github.com/gungunfebrianza/Mastering-Mongoo
 
 **Mastering HTML 5** - [Click](https://github.com/gungunfebrianza/Mastering-HTML-5)
 
+**Mastering SVG** - [Click](https://github.com/gungunfebrianza/Mastering-SVG)
+
 **Mastering Pug** - [Click](https://github.com/gungunfebrianza/Mastering-Pug) (Templating Engine)
 
 ### CSS
 
 **Mastering CSS** - [Click](https://github.com/gungunfebrianza/Mastering-CSS)
+
+**Kujang Framework** - [Click](https://github.com/gungunfebrianza/kujang) 
 
 ### PHP
 
