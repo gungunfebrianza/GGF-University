@@ -10,30 +10,30 @@
 - **Belajar Dengan Jenius Golang  - [Click](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Golang)**
 - **Develop Security Software With C# - [Click](https://github.com/gungunfebrianza/Develop-Security-Software-With-CSharp)**
 
-
+-----------------------------
 
 ## My Projects :
 
 - **Visual Hashing - [Click](https://github.com/gungunfebrianza/Visual-Hashing)**
 - **Stealth Monitor - [Click](https://github.com/gungunfebrianza/Security-Software-StealthMonitor)**
 
-
+----------------------------------------------
 
 ## Blockchain :
 
 ### Note :
 
-Visualized Blockchain - Fundamental Concept - [Click](https://medium.com/@hazekaizer/visualized-blockchain-fundamental-concept-131d9084c0b9)
+**Visualized Blockchain - Fundamental Concept** - [Click](https://medium.com/@hazekaizer/visualized-blockchain-fundamental-concept-131d9084c0b9)
 
 ### Book :
 
-
+----------------------------------------------------------
 
 ## Programming Repository
 
-### Vannila Javascript
+### Vanilla JavaScript
 
-**Mastering Javascript** - [Click](https://github.com/gungunfebrianza/Mastering-Javascript)
+**Mastering JavaScript** - [Click](https://github.com/gungunfebrianza/Mastering-Javascript)
 
 ### Node.js
 
@@ -42,3 +42,19 @@ Visualized Blockchain - Fundamental Concept - [Click](https://medium.com/@hazeka
 ### React
 
 **Mastering React** - [Click](https://github.com/gungunfebrianza/Mastering-React) (Note: Probably Obsolete)
+
+------------------------------------
+
+# Computer Science
+
+## Algorithm
+
+## Data Structure
+
+## Object-Oriented Programming
+
+## Mathematic
+
+### Notes :
+
+**Visualized Mathematic Fields** - [Click](https://medium.com/@hazekaizer/visualized-mathematic-fields-versio-c5c827200a17)
