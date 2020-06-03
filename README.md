@@ -36,11 +36,14 @@
 
 ### NoSQL Repository :
 
-Mastering Mongoose - [Click](https://github.com/gungunfebrianza/Mastering-Mongoose)
+- [x] Mastering MongoDB - Click
+- [x] **Mastering Mongoose** - [Click](https://github.com/gungunfebrianza/Mastering-Mongoose)
+- [ ] Mastering Redis - Click
+- [ ] Mastering Cassandra
 
 ### SQL :
 
-
+- [ ] Mastering PostgreSQL
 
 ----------------------------------------------------------
 
@@ -48,47 +51,43 @@ Mastering Mongoose - [Click](https://github.com/gungunfebrianza/Mastering-Mongoo
 
 ### Deno
 
-**Deno : Oak, JWT & PostgreSQL CRUD** - [Click](https://github.com/gungunfebrianza/Deno-Oak-JWT-CRUD)  
+- **Deno : Oak, JWT & PostgreSQL CRUD** - [Click](https://github.com/gungunfebrianza/Deno-Oak-JWT-CRUD)  
 
 ### Vanilla JavaScript
 
-**Mastering JavaScript** - [Click](https://github.com/gungunfebrianza/Mastering-Javascript)
-
-**Cryptography Examples** - [Click](https://github.com/gungunfebrianza/Mastering-Cryptography)
+- **Mastering JavaScript** - 
+- **Cryptography Examples** - [Click](https://github.com/gungunfebrianza/Mastering-Cryptography)
 
 ### Node.js
 
-**Mastering Node.js** - [Click](https://github.com/gungunfebrianza/Mastering-Node.js)
+- **Mastering Node.js** - [Click](https://github.com/gungunfebrianza/Mastering-Node.js)
 
 ### D3.js
 
-**Mastering D3.js** - [Click](https://github.com/gungunfebrianza/Mastering-D3.js)
+- **Mastering D3.js** - [Click](https://github.com/gungunfebrianza/Mastering-D3.js)
 
 ### Express.js
 
-**Mastering Express.js** - [Click](https://github.com/gungunfebrianza/Mastering-Express.js)
+- **Mastering Express.js** - [Click](https://github.com/gungunfebrianza/Mastering-Express.js)
 
 ### React
 
-**Mastering React** - [Click](https://github.com/gungunfebrianza/Mastering-React) (Note: Probably Obsolete)
+- **Mastering React** - [Click](https://github.com/gungunfebrianza/Mastering-React) (Note: Probably Obsolete)
 
 ### HTML 5
 
-**Mastering HTML 5** - [Click](https://github.com/gungunfebrianza/Mastering-HTML-5)
-
-**Mastering SVG** - [Click](https://github.com/gungunfebrianza/Mastering-SVG)
-
-**Mastering Pug** - [Click](https://github.com/gungunfebrianza/Mastering-Pug) (Templating Engine)
+- **Mastering HTML 5** - 
+- **Mastering SVG** - 
+- **Mastering Pug** - [Click](https://github.com/gungunfebrianza/Mastering-Pug) (Templating Engine)
 
 ### CSS
 
-**Mastering CSS** - [Click](https://github.com/gungunfebrianza/Mastering-CSS)
-
-**Kujang Framework** - [Click](https://github.com/gungunfebrianza/kujang) 
+- **Mastering CSS** - 
+- **Kujang Framework** - [Click](https://github.com/gungunfebrianza/kujang) 
 
 ### PHP
 
-Mastering PHP - [Click](https://github.com/gungunfebrianza/Mastering-PHP7)
+- **Mastering PHP** - [Click](https://github.com/gungunfebrianza/Mastering-PHP7)
 
 ------------------------------------
 
