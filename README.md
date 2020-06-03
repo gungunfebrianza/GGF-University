@@ -1,5 +1,7 @@
 # GGF University
 
+> Prepare for the legacy, soon you will be history - Gun Gun Febrianza
+
 
 
 ## My Books :
@@ -9,7 +11,14 @@
 - [x] **Belajar Dengan Jenius Amazon IAM - [Click](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-AWS-IAM)**
 - [x] **Belajar Dengan Jenius Golang  - [Click](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Golang)**
 - [x] **Develop Security Software With C# - [Click](https://github.com/gungunfebrianza/Develop-Security-Software-With-CSharp)**
-- [ ] **Belajar Dengan Jenius AWS S3 & Node.js/Deno**
+- [ ] **Belajar Dengan Jenius Amazon Serverless**
+- [ ] **Belajar Dengan Jenius Amazon RDS &Node.js/Deno**
+- [ ] **Belajar Dengan Jenius Amazon DynamoDB &Node.js/Deno**
+- [ ] **Belajar Dengan Jenius Amazon Lambda &Node.js/Deno**
+- [ ] **Belajar Dengan Jenius Amazon S3 &Node.js/Deno**
+- [ ] **Belajar Dengan Jenius Amazon SQS & Node.js/Deno**
+- [ ] **Belajar Dengan Jenius Amazon SES & Node.js/Deno**
+- [ ] **Belajar Dengan Jenius Amazon EC2 & Node.js/Deno**
 - [ ] **Belajar Dengan Jenius Algebra**
 
 -----------------------------
@@ -131,6 +140,24 @@
    syntax trees. Regular expressions and their algebra. Finite automata and regular languages: Kleene’s theorem and the Pumping Lemma.
 
 ## Compiler Construction
+
+1. **Overview of compiler structure.** The spectrum of interpreters and compilers;
+   compile-time and run-time. Structure of a simple compiler: lexical analysis and
+   syntax analysis (details postponed to the last four lectures of term), type checking,
+   intermediate representations, optimisations, code generation. Overview of run-time
+   data structures: stack and heap. Virtual machines.
+2. **Data structures, procedures/functions.** Representing tuples, arrays, references.
+   Procedures and functions: calling conventions, nested structure, non-local variables.
+   Functions as first-class values represented as closures. Simple optimisations: inline
+   expansion, constant folding, elimination of tail recursion, peephole optimisation.
+3. **Advanced topics.** Run-time memory management (garbage collection). Static and
+   dynamic linking. Objects and inheritance; implementation of method dispatch.
+   Try-catch exception mechanisms. How to compile a compiler via bootstrapping.
+4. **Lexical analysis and syntax analysis.** Lexical analysis based on regular
+   expressions and finite state automata. Using LEX-tools. How does LEX work?
+   Parsing based on context-free grammars and push-down automata. Grammar
+   ambiguity, left- and right-associativity and operator precedence. Using YACC-like
+   tools. How does YACC work? LL(k) and LR(k) parsing theory.
 
 ## Operating System
 
