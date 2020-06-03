@@ -162,6 +162,30 @@
 
 ## Distributed System
 
+1. **Introduction to distributed systems; RPC.** Avantages and challenges of distributed systems; “middleware”; transparency goals; client-server systems; failures and retry semantics (all-or-nothing; at-most-once; at-least-once). Remote procedure call (RPC); marshalling; interface definition languages (IDLs); SunRPC; external data representation (XDR).
+2. **Network File System and Object-Oriented Middleware.** Network File System (NFS); NFSv2; NFSv3; scoping; the implications of a stateless design; performance.
+3. **Practical RPC systems; clocks.** Remote method invocation (RMI); remote classes vs. serialisable classes; distributed garbage collection; XML-RPC; SOAP and web services; REST. Physical clocks; UTC; computer clocks; clock synchronisation.
+4. **Clock synchronisation; logical clocks.** Clock drift and compensation; Cristian’s
+   Algorithm; Berkeley Algorithm; Network Time Protocol (NTP). Logical time,
+   “happens-before”; Lamport clocks; vector clocks.
+5. **Consistent cuts, process groups, and mutual exclusion.** Consistent global state;
+   consistent cuts. Process groups; FIFO ordering; receiving vs. delivering; causal
+   ordering; total ordering. Distributed mutual exclusion; central lock servers; token
+   passing; totally ordered multicst.
+6. **Elections, consensus, and distributed transactions Leader.** elections; ring-based
+   algorithm; the Bully algorithm. Consensus. Distributed transactions; atomic commit
+   protocols; 2-phase commit. Replication and consistency.
+7. **Replication in distributed systems, CAP, case studies.** Replication and
+   consistency (cont); strong consistency; quorum systems; weak consistency; FIFO
+   consistency; eventual consistency; Amazone’s Dynamo; session guarantees;
+   Consistency, Availability and Partitions (CAP); Google datacentre technologies
+   (MapReduce).
+8. **Further case studies, PubSub, security, NASD/AFS/Coda.** Google datacentre
+   technologies (BigTable, Spanner). Access control and the access-control matrix;
+   ACLs vs capabilities; cryptographic capabilities; role-
+
+## Concurrent System
+
 1. **Introduction to concurrency, threads, and mutual exclusion.** Introduction to concurrent systems; threads; interleaving; preemption; parallelism; execution orderings; processes and threads; kernel vs. user threads; M:N threads; atomicity; mutual exclusion; and mutual exclusion locks (mutexes).
 2. **More mutual exclusion, semaphores, producer-consumer, and MRSW**. Hardware foundations for atomicity; locks and invariants; semaphores; condition synchronisation; N-resource allocation; two-party and generalised producer-consumer; Multi-Reader, Single-Write (MRSW) locks.
 3. **CCR, monitors, and concurrency in practice.** Conditional critical regions (CCR); monitors; condition variables; signal-wait vs. signal-continue semantics; concurrency in practice.
