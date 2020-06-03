@@ -4,11 +4,13 @@
 
 ## My Books :
 
-- **Belajar Dengan Jenius Deno - [Click](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-DenoTheWKWKLand)** 
-- **Belajar Dengan Jenius Node.js & AWS - [Click](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js)**
-- **Belajar Dengan Jenius Amazon IAM - [Click](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-AWS-IAM)**
-- **Belajar Dengan Jenius Golang  - [Click](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Golang)**
-- **Develop Security Software With C# - [Click](https://github.com/gungunfebrianza/Develop-Security-Software-With-CSharp)**
+- [x] **Belajar Dengan Jenius Deno - [Click](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-DenoTheWKWKLand)** 
+- [x] **Belajar Dengan Jenius Node.js & AWS - [Click](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js)**
+- [x] **Belajar Dengan Jenius Amazon IAM - [Click](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-AWS-IAM)**
+- [x] **Belajar Dengan Jenius Golang  - [Click](https://github.com/gungunfebrianza/Belajar-Dengan-Jenius-Golang)**
+- [x] **Develop Security Software With C# - [Click](https://github.com/gungunfebrianza/Develop-Security-Software-With-CSharp)**
+- [ ] **Belajar Dengan Jenius AWS S3 & Node.js/Deno**
+- [ ] **Belajar Dengan Jenius Algebra**
 
 -----------------------------
 
@@ -19,9 +21,9 @@
 
 ----------------------------------------------
 
-## Blockchain :
+## My Blockchain Researchs :
 
-### Note :
+### Notes :
 
 **Visualized Blockchain - Fundamental Concept** - [Click](https://medium.com/@hazekaizer/visualized-blockchain-fundamental-concept-131d9084c0b9)
 
@@ -29,7 +31,11 @@
 
 ----------------------------------------------------------
 
-## Programming Repository
+## My Programming Repositories :
+
+### Deno
+
+**Deno : Oak, JWT & PostgreSQL CRUD** - [Click](https://github.com/gungunfebrianza/Deno-Oak-JWT-CRUD)  
 
 ### Vanilla JavaScript
 
@@ -38,6 +44,10 @@
 ### Node.js
 
 **Mastering Node.js** - [Click](https://github.com/gungunfebrianza/Mastering-Node.js)
+
+### D3.js
+
+**Mastering D3.js** - [Click](https://github.com/gungunfebrianza/Mastering-D3.js)
 
 ### React
 
