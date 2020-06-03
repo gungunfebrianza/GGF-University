@@ -136,11 +136,7 @@
 
 1. Introduction to operating systems. Abstract view of an operating system. OS evolution: multi-programming, time-sharing. Dual-mode operation. Protecting I/O, memory, CPU. Kernels and micro-kernels. Elementary computer architecture.
 2. **Processes and scheduling.** Job/process concepts. Scheduling basics: CPU-I/O interleaving, (non-)preemption, context switching. Scheduling algorithms: FCFS, SJF, SRTF, priority scheduling, round robin. Combined schemes.
-3. **Memory management.** Processes in memory. Logical addresses. Partitions: static
-   versus dynamic, free space management, external fragmentation. Segmented
-   memory. Paged memory: concepts, internal fragmentation, page tables. Demand
-   paging/segmentation. Replacement strategies: OPT, FIFO, LRU (and
-   approximations), NRU, LFU/MFU, MRU. Working set schemes.
+3. **Memory management.** Processes in memory. Logical addresses. Partitions: static versus dynamic, free space management, external fragmentation. Segmented memory. Paged memory: concepts, internal fragmentation, page tables. Demand paging/segmentation. Replacement strategies: OPT, FIFO, LRU (and approximations), NRU, LFU/MFU, MRU. Working set schemes.
 4. **I/O subsystem.** General structure. Polled mode versus interrupt-driven I/O. Application I/O interface: block and character devices, buffering, blocking versus non-blocking I/O. Other issues: caching, scheduling, spooling, performance.
 5. **File management.** File concept. Directory and storage services. File names and meta-data. Directory name-space: hierarchies, DAGs, hard and soft links. File operations. Access control. Existence and concurrency control.
 6. **Unix.** Unix case study. History. General structure. Unix file system: file abstraction, directories, mount points, implementation details. Processes: memory image, life cycle, start of day. The shell: basic operation, commands, standard I/O, redirection,
@@ -150,7 +146,30 @@
 
 ## Computer Networking
 
+1. **Introduction.** Overview of networking using the Internet as an example. LANs and WANs. OSI reference model, Internet TCP/IP Protocol Stack. Client/server paradigm, circuit-switching, packet-switching, Internet structure, networking delays
+   and packet loss.
+2. **Link layer and local area networks.** Link layer services, error detection and correction, Multiple Access Protocols, link layer addressing, Ethernet, hubs and switches, Point-to-Point Protocol.
+3. **Wireless and mobile networks.** Wireless links and network characteristics, Wi-Fi: IEEE 802.11 wireless LANs, mobility management and mobile IP.
+4. **Network layer addressing.** Network layer services, IP, IP addressing, IPv4, DHCP,
+   NAT, ICMP, IPv6.
+5. **Network layer routing.** Routing and forwarding, routing algorithms, routing in the
+   Internet, RIP, OSPF, BGP, multicast.
+6. **Transport layer**. Service models, multiplexing/demultiplexing, connection-less transport (UDP), principles of reliable data transfer, connection-oriented transport (TCP), TCP congestion control, securing TCP (SSL), TCP variants.
+7. **Application layer.** Service requirements, WWW, HTTP, electronic mail, Domain
+   Name System, P2P, socket programming API.
+8. **Multimedia networking.** Networked multimedia applications, best-effort service and multimedia delivery requirements, multimedia protocols (RTSP, RTP, RTCP, SIP), content distribution networks.
+9. **Datacenter Networking.** Datacenter introductions, architecting a datacenter, datacenter network and workload issues, datacenter transport issues.
+
 ## Distributed System
+
+1. **Introduction to concurrency, threads, and mutual exclusion.** Introduction to concurrent systems; threads; interleaving; preemption; parallelism; execution orderings; processes and threads; kernel vs. user threads; M:N threads; atomicity; mutual exclusion; and mutual exclusion locks (mutexes).
+2. **More mutual exclusion, semaphores, producer-consumer, and MRSW**. Hardware foundations for atomicity; locks and invariants; semaphores; condition synchronisation; N-resource allocation; two-party and generalised producer-consumer; Multi-Reader, Single-Write (MRSW) locks.
+3. **CCR, monitors, and concurrency in practice.** Conditional critical regions (CCR); monitors; condition variables; signal-wait vs. signal-continue semantics; concurrency in practice.
+4. **Safety and liveness.** Safety vs. liveness; deadlock; the Dining Philosophers; resource allocation graphs; deadlock prevention, avoidance, detection, and recovery; livelock; priority inversion; priority inheritance.
+5. **Concurrency without shared data; transactions.** Active objects; message passing; tuple spaces; CSP; and actor models. Composite operations; transactions; ACID; isolation; and serialisability.
+6. **Further transactions**. History graphs; good and bad schedules; isolation vs. strict isolation; 2-phase locking; rollback; timestamp ordering (TSO); and optimistic concurrency control (OCC).
+7. **Crash recovery, lock-free programming, and transactional memory**. Write-ahead logging, checkpoints, and recovery. Lock-free programming and software-transactional memory (STM).
+8. **Concurrent systems case study.** Concurrency in the kernel; kernel synchronisation before parallelism; Giant-locked kernels; fine-grained locking; primitives and strategies; lock order checking; network-stack work flows; performance scalability; the impact of changing hardware.
 
 ## Complexity Theory
 
