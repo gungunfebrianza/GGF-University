@@ -68,3 +68,36 @@
 ### Notes :
 
 **Visualized Mathematic Fields** - [Click](https://medium.com/@hazekaizer/visualized-mathematic-fields-versio-c5c827200a17)
+
+## Discrete Mathematic
+
+## Compiler Construction
+
+## Operating System
+
+## Computer Architecture
+
+## Computer Networking
+
+## Distributed System
+
+## Complexity Theory
+
+1. **Algorithm Algorithms and problems.** Complexity of algorithms and of problems. Lower and
+   upper bounds. Examples: sorting and travelling salesman.
+2. **Time and space.** Models of computation and measures of complexity. Time and
+   space complexity on a Turing machine. Decidability and complexity.
+3. **Time complexity.** Time complexity classes. Polynomial time problems and
+   algorithms. P and NP.
+4. **Non-determinism.** Non-deterministic machines. The class NP redefined.
+   Non-deterministic algorithms for reachability and satisfiability.
+5. **NP-completeness.** Reductions and completeness. NP-completeness of
+   satisfiability. Graph-theoretic problems. Hamiltonian cycle and
+   clique. Sets, numbers and scheduling. Matching, set
+   covering and bin packing.
+6. **Cryptographic complexity.** One-way functions. 
+7. **Space complexity.** Deterministic and non-deterministic space complexity classes.
+   The reachability method. Savitch’s theorem.
+8. **Hierarchy.** The time and space hierarchy theorems and complete problems.
+9. **Descriptive complexity.** Logics capturing complexity classes. Fagin’s theorem.
+
