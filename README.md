@@ -21,13 +21,25 @@
 
 ----------------------------------------------
 
-## My Blockchain Researchs :
+## My Blockchain Research :
 
 ### Notes :
 
 **Visualized Blockchain - Fundamental Concept** - [Click](https://medium.com/@hazekaizer/visualized-blockchain-fundamental-concept-131d9084c0b9)
 
 ### Book :
+
+------------
+
+## My Database Research :
+
+### NoSQL Repository :
+
+Mastering Mongoose - [Click](https://github.com/gungunfebrianza/Mastering-Mongoose)
+
+### SQL :
+
+
 
 ----------------------------------------------------------
 
@@ -49,9 +61,23 @@
 
 **Mastering D3.js** - [Click](https://github.com/gungunfebrianza/Mastering-D3.js)
 
+### Express.js
+
+**Mastering Express.js** - [Click](https://github.com/gungunfebrianza/Mastering-Express.js)
+
 ### React
 
 **Mastering React** - [Click](https://github.com/gungunfebrianza/Mastering-React) (Note: Probably Obsolete)
+
+### HTML 5
+
+**Mastering HTML 5** - [Click](https://github.com/gungunfebrianza/Mastering-HTML-5)
+
+**Mastering Pug** - [Click](https://github.com/gungunfebrianza/Mastering-Pug) (Templating Engine)
+
+### CSS
+
+**Mastering CSS** - [Click](https://github.com/gungunfebrianza/Mastering-CSS)
 
 ------------------------------------
 
