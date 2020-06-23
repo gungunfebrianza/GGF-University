@@ -27,7 +27,8 @@
 
 - **Visual Hashing - [Click](https://github.com/gungunfebrianza/Visual-Hashing)**
 - **Stealth Monitor - [Click](https://github.com/gungunfebrianza/Security-Software-StealthMonitor)**
-- **USB Disk Security** - [Click](https://github.com/gungunfebrianza/USB-Disk-Security)
+- **USB Disk Security - [Click](https://github.com/gungunfebrianza/USB-Disk-Security)**
+- **Bedhil - GUI Task Automaton - [Click](https://github.com/gungunfebrianza/Bedhil---GUI-Task-Automaton)**
 
 ----------------------------------------------
 
