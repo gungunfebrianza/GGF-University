@@ -141,6 +141,12 @@ Sebagai contoh jika **L = {a,b}** maka jika L<sup>+</sup> :
 
 Contoh : **RA** adalah **Prefix** dari **RAM**.
 
+#### Suffix
+
+**Suffix** adalah sebuah **string** yang diperoleh dengan cara menghapus 0 atau lebih dari 1 awalan **symbol** dalam sebuah **string**. 
+
+Contoh : **AM** adalah **Suffix** dari **RAM**.
+
 
 
 ## Regular Expression
