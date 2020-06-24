@@ -93,9 +93,16 @@ Contoh **length of string**.
 
 **Syntax** mengacu ke bagaimana cara sekumpulan **symbol** digabungkan untuk membentuk sebuah kalimat dari sebuah bahasa. 
 
-**Syntax** menjelaskan relasi formal dengan unsur suatu bahasa, menyediakan deskripsi struktural dari berbagai ekpresi yang merupakan sebuah legal **string** dalam sebuah bahasa. **Syntax** hanya mengatur bentuk dan struktur sebuah **symbol** dalam sebuah bahasa tanpa mempertimbangkan maknanya [12]. 
+**Syntax** menjelaskan relasi formal dengan unsur suatu bahasa, menyediakan deskripsi struktural dari berbagai ekpresi yang merupakan sebuah legal **string** dalam sebuah bahasa. **Syntax** hanya mengatur bentuk dan struktur sebuah **symbol** dalam sebuah bahasa tanpa mempertimbangkan maknanya [1]. 
 
 Oleh karena itu legal atau tidaknya suatu **string** dalam sebuah bahasa yang ingin dibuat harus ditetapkan terlebih dahulu. Sebagai contoh terdapat sebuah bahasa **x** yang mengatur tentang legalitas **syntax** yang dimilikinya.
+
+| Legal dalam bahasa x          | Ilegal dalam bahasa x |
+| ----------------------------- | --------------------- |
+| "Hello Maudy Ayunda"          | "Hello Maudy Ayunda   |
+| 666                           | 666)                  |
+| 13\*(31/9+7-0)/(80/2+14+9\*3) | 9*(13////)/(5+---+))  |
+| 8*(((9-6)))                   | +2+9                  |
 
 
 
