@@ -155,19 +155,19 @@ Sebagai contoh jika **L = {a,b}** maka jika L<sup>+</sup> :
 
 **Prefix** adalah sebuah **string** yang diperoleh dengan cara menghapus 0 atau lebih dari 1 akhiran **symbol** dalam sebuah **string**. 
 
-Contoh : **RA** adalah **Prefix** dari **RAM**.
+> Contoh : **RA** adalah **Prefix** dari **RAM**.
 
 #### Suffix
 
 **Suffix** adalah sebuah **string** yang diperoleh dengan cara menghapus 0 atau lebih dari 1 awalan **symbol** dalam sebuah **string**. 
 
-Contoh : **AM** adalah **Suffix** dari **RAM**.
+> Contoh : **AM** adalah **Suffix** dari **RAM**.
 
 #### Substring
 
 **Substring** adalah sebuah **string** dengan cara menghapus **prefix** atau **suffix** dari sebuah **string**. 
 
-Contoh **RA** atau **AM** adalah **substring** dari **RAM**.
+> Contoh **RA** atau **AM** adalah **substring** dari **RAM**.
 
 ## Regular Expression
 
@@ -235,9 +235,25 @@ Sebagai contoh di bawah ini adalah **regular definition** yang menjadi **set** u
 
 > id →  letter(letter | digit)*
 
+Pada **Regular Expression** id adalah **pattern** untuk **identifier** yang terdiri dari **letter** dan **digit**. 
+
+Dimana **letter** adalah **Regular Expression** untuk **set of all upper-case** dan **lower-case letters** pada sebuah **alphabet** dan **digit** adalah **Regular Expression** untuk **set of all decimal digits**.
+
 
 
 ## Automata
+
+**Automata** atau **automaton** adalah model abstrak dari komputer digital. 
+
+Sebuah **Automaton** memiliki mekanisme untuk membaca **input**, dimana **input** tersebut adalah **string** dari sebuah **alphabet**. Input ini secara aktual ditulis pada sebuah “input file”, yang hanya bisa dibaca oleh **automaton** tanpa memiliki kemampuan untuk mengubahnya. 
+
+**Input file** dibagi menjadi beberapa sel, setiap sel dapat menampung satu **symbol**. **Automaton** juga memiliki alat penyimpanan sementara yang memiliki sel dengan jumlah tak terbatas, kontenya dapat diubah oleh **automaton**. 
+
+**Automaton** memiliki **control unit**, yang di dalamnya terdapat **finite number** dari sebuah **internal state**. 
+
+**Automaton** dapatmengubah **state** dengan cara yang telah ditentukan. 
+
+Di bawah ini adalah contoh figure **automaton**.
 
 ## Grammar
 
