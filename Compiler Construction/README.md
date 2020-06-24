@@ -147,7 +147,11 @@ Contoh : **RA** adalah **Prefix** dari **RAM**.
 
 Contoh : **AM** adalah **Suffix** dari **RAM**.
 
+#### Substring
 
+**Substring** adalah sebuah **string** dengan cara menghapus **prefix** atau **suffix** dari sebuah **string**. 
+
+Contoh **RA** atau **AM** adalah **substring** dari **RAM**.
 
 ## Regular Expression
 
