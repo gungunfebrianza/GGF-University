@@ -2,6 +2,8 @@
 
 ## Gun Gun Febrianza
 
+## Setup Development Tools
+
 ### Installation Prerequisites
 
 - Install AntlrVSIX - [here](https://marketplace.visualstudio.com/items?itemName=KenDomino.AntlrVSIX)
@@ -62,3 +64,39 @@ Execute this command under cmd.exe :
 ### Antlr Dashboard
 
 - Antlr Documentation - [here](https://github.com/antlr/antlr4/blob/4.8/doc/index.md)
+
+----------------
+
+## Syntax
+
+Sebuah bahasa memiliki sekumpulan **string** yang terdiri dari sekumpulan **character** dari sebuah **alphabet**. 
+
+**Alphabet** adalah **finite set** dari sebuah **symbol** dan **symbol** adalah **unit** yang menjadi representasi data. 
+
+Contoh **Alphabet** yang berisi **finite set of symbol**.
+
+Σ = {*a*, *b*, *c*}
+
+Setiap **string** dari bahasa tersebut disebut dengan **sentence** atau **statement**. 
+
+**String** adalah serangkaian terbatas **symbol** dari sebuah **alphabet**. 
+
+Contoh **String** :
+
+
+
+## Regular Expression
+
+## Automata
+
+## Grammar
+
+## Metalanguage 
+
+## Derivation 
+
+## Parse Tree
+
+## Extended Backus Naus Form (EBNF) 
+
+## Syntax Diagram
