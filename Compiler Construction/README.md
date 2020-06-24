@@ -155,6 +155,24 @@ Contoh **RA** atau **AM** adalah **substring** dari **RAM**.
 
 ## Regular Expression
 
+**Regular Expression** adalah **text pattern** yang menjelaskan bagaimana bentuk **string** [2]. 
+
+Ekspresi tersebut bisa diimplementasikan dalam sebuah **software** menggunakan **Deterministic Finite Automata (DFA)** [3]. 
+
+Di bawah ini adalah contoh notasi **regular expression**.
+
+> Letter (letter|digit)
+
+Setiap **regular expression** ‘r’ menunjukan bahasa ‘L(r)’. 
+
+Sebuah bahasa yang dinotasikan oleh **regular expression** disebut dengan **regular set**. 
+
+**Regular expression** sangat berguna untuk merepresentasikan sekumpulan **string** dalam bentuk **algebraic fashion**. 
+
+**Regular expression** pada sebuah **alphabet** menentukan bahasa dengan mengacu kepada aturan-aturan sebagai berikut.
+
+
+
 ## Automata
 
 ## Grammar
