@@ -4,11 +4,11 @@
 
 ### Installation Prerequisites
 
-- Install AntlrVSIX [here](https://marketplace.visualstudio.com/items?itemName=KenDomino.AntlrVSIX)
+- Install AntlrVSIX - [here](https://marketplace.visualstudio.com/items?itemName=KenDomino.AntlrVSIX)
 
-- Install Oracle JDK & JRE [here](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- Install Oracle JDK & JRE - [here](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-- Install Java-based Antlr Toolchain [here](https://www.antlr.org/download/antlr-4.8-complete.jar)
+- Install Java-based Antlr Toolchain - [here](https://www.antlr.org/download/antlr-4.8-complete.jar)
 
 - Setup Environment Variable :
 
@@ -58,3 +58,7 @@ Execute this command under cmd.exe :
 2. Create a new project
 3. AntlrFAProject
 4. Run The Project
+
+### Antlr Dashboard
+
+- Antlr Documentation - [here](https://github.com/antlr/antlr4/blob/4.8/doc/index.md)
