@@ -190,3 +190,7 @@ Sebuah bahasa yang dinotasikan oleh **regular expression** disebut dengan **regu
 ## Bibliography
 
 [1] Slonneger & Kurtz, "Specifying Syntax", *Formal Syntax and Semantics of Programming Languages - A Laboratory Based Approach,*  USA : Addison-Wesley, 1994. pp 1
+
+[2] Felix & Victor, "Introducing Regular Expression", *Mastering Python Regular Expression,* Mumbai, : Packt Publisher, 2014. pp 5
+
+[3] Goyvaerts & Levithan*,* "Introduction to Regular Expression", *O’reilly. Regular Expression Cockbook,* USA : O’Reilly 2009. pp.2
