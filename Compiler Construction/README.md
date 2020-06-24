@@ -193,8 +193,15 @@ Contoh **Regular Expression** :
 | go*gle             | {gle, gogle, google, gooogle, goooogle, ...}  |
 | go+gle             | {gogle, google, gooogle, goooogle, ...}       |
 | g(oog)+le          | {google , googoogoogle, googoogoogoogle, ...} |
+| z{3}               | {zzz}                                         |
+| z{3,6}             | {zzz, zzzz, zzzzz, zzzzzz}                    |
+| z{3,}              | {zzz, zzzz, zzzzz, ...}                       |
 
+### Regular Definition
 
+**Regular Definition** adalah nama yang diberikan untuk **regular expression** tertentu dan menggunakan nama tersebut dalam **regular expression** lainya [4]. 
+
+Sebagai contoh di bawah ini adalah **regular definition** yang menjadi **set** untuk **identifier** dalam bahasa pemrograman umumnya yang dijelaskan sebagai dari sekumpulan **string of letter** dan **digit** yang diawali dengan **letter**.
 
 ## Automata
 
