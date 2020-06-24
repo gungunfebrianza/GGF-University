@@ -74,17 +74,23 @@ Sebuah bahasa memiliki sekumpulan **string** yang terdiri dari sekumpulan **char
 **Alphabet** adalah **finite set** dari sebuah **symbol** dan **symbol** adalah **unit** yang menjadi representasi data. 
 
 Contoh **Alphabet** yang berisi **finite set of symbol**.
-$$
-Σ = {a, b, c}
-$$
+
+> Σ = {*a*, *b*, *c*}
+
 Setiap **string** dari bahasa tersebut disebut dengan **sentence** atau **statement**. 
 
 **String** adalah serangkaian terbatas **symbol** dari sebuah **alphabet**. 
 
 Contoh **String** :
-$$
-w = abbcbabb,  x = bb, y = aa
-$$
+
+> w = abbcbabb, x = bb, y = aa                 
+
+Sebuah **string** memiliki **property** **length** yang digunakan untuk mengetahui jumlah kemunculan **symbol** di dalam suatu **string**. 
+
+Contoh **length of string**.
+
+> Jika w = abbac, maka |w| = 5               
+
 
 
 ## Regular Expression
