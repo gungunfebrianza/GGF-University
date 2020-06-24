@@ -19,6 +19,7 @@
 3. Regular Expression
    - Regular Definition
 4. Automata
+   - Deterministic Finite Automaton (DFA)
 5. Grammar
 6. Metalanguage
 7. Derivation
@@ -254,6 +255,24 @@ Sebuah **Automaton** memiliki mekanisme untuk membaca **input**, dimana **input*
 **Automaton** dapatmengubah **state** dengan cara yang telah ditentukan. 
 
 Di bawah ini adalah contoh figure **automaton**.
+
+Jika **internal state**, **input** dan konten dari penyimpanan telah diketahui, maka karakteristik **automaton** bisa diprediksikan sehingga disebut **deterministic automata**. Pada sebuah **automaton** terdapat **acceptor** yang merespon ya atau tidak pada **output**. 
+
+### Deterministic Finite Automaton
+
+Contoh **Deterministic Finite Automaton  (DFA)** :
+
+Sebuah *DFA* terdiri dari 5 Tuple *M* = (*Q*, S,d, *q* , *F* )
+
+Q = *Finite set* dari *“internal state”*
+
+Σ = *Finite set* *symbol* yang dipanggil “*input alphabet*”
+
+δ = *lowercase delta* sebagai notasi fungsi *transition*
+
+q0 ∈ Q = q0 elemen dari Q yang menjadi *start state*
+
+F ⊆ Q = F *single* elemen atau *subset* dari *set* Q untuk *final state*
 
 ## Grammar
 
