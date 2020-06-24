@@ -6,41 +6,33 @@
 
 ### Installation Prerequisites
 
-- Install AntlrVSIX - [here](https://marketplace.visualstudio.com/items?itemName=KenDomino.AntlrVSIX)
+- **Install AntlrVSIX** - [here](https://marketplace.visualstudio.com/items?itemName=KenDomino.AntlrVSIX)
 
-- Install Oracle JDK & JRE - [here](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- **Install Oracle JDK & JRE** - [here](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-- Install Java-based Antlr Toolchain - [here](https://www.antlr.org/download/antlr-4.8-complete.jar)
+- **Install Java-based Antlr Toolchain** - [here](https://www.antlr.org/download/antlr-4.8-complete.jar)
 
-- Setup Environment Variable :
+- **Setup Environment Variable** :
 
-  - ```
-    JAVA_HOME
-    ```
+  - JAVA_HOME
 
   - ```
     C:\Program Files\Java\jdk-14.0.1
     ```
 
-  - ```
-    JRE_HOME
-    ```
+  - JRE_HOME
 
   - ```
     C:\Program Files\Java\jre1.8.0_251
     ```
 
-  - ```
-    JAVA_EXEC
-    ```
+  - JAVA_EXEC
 
   - ```
     C:\Program Files\Java\jdk-14.0.1\bin\java.exe
     ```
 
-  - ```
-    Antlr4ToolPath
-    ```
+  - Antlr4ToolPath
 
   - ```
     C:\antlr\antlr-4.8-complete.jar
@@ -171,12 +163,38 @@ Sebuah bahasa yang dinotasikan oleh **regular expression** disebut dengan **regu
 
 **Regular expression** pada sebuah **alphabet** menentukan bahasa dengan mengacu kepada aturan-aturan sebagai berikut.
 
-1. ε adalah sebuah *regular expression* yang dinotasikan dengan {ε} bahwa di dalamnya hanya terdapat *set* *empty string*.
+1. ε adalah sebuah **Regular Expression** yang dinotasikan dengan {ε} bahwa di dalamnya hanya terdapat **set empty string**.
 2. Jika *a* adalah sebuah *symbol* dalam *alphabet*, maka *a* adalah *regular* *expression* yang dinotasikan dengan {*a*} bahwa di dalamnya terdapat *set* yang terdiri dari *string* *a*.
 3. Dikatakan ‘*r*’ dan ‘*s*’ adalah *regular expression* yang dinotasikan dengan L(*r*) dan L(*s*), maka :
    - (*r*)|(*s*) adalah *regular expression* dengan notasi L(r) ∪ L(s)
    - (*r*)(*s*) adalah *regular expression* dengan notasi L(r)L(s)
    - (*c*) (*r*)\* adalah RE dengan notasi (L(r))*
+
+Contoh operasi aljabar dalam **regular expression**, dikatakan bahwa r, s dan t adalah **regular expression** dengan notasi L(r) L(s) L (t) maka  :
+
+1. *r* | *s* adalah RE dengan notasi L(*r*) ∪ L(*s*). ( | ) komutatif.
+2. *r* | (*s* | *t* ) = ( *r* | *s* ) | *t*. ( | ) asosiatif.   
+3. (*rs*) *t* = *r* ( *st* ). Disini *concatenation* adalah asosiatif.
+4. *r* (*s* | *t*) = *rs* | *rt* . Disini *concatenation* adalah distributif.
+5. *εr* = *r* = *rε*. Disini ε adalah identitas *element*.
+6. r\* = (*r* | *ε*)*    
+
+Contoh **Regular Expression** :
+
+| Regex              | Result                                        |
+| ------------------ | --------------------------------------------- |
+| Hello              | {Hello}                                       |
+| love \| hate       | {love, hate}                                  |
+| Li (f\|v) e        | {Life, Live}                                  |
+| li[fv]e            | {life, live}                                  |
+| [b-chm-pP]at\|ot   | {bat, cat, hat, mat, pat, Pat, Pot}           |
+| colou?r            | {color, colour}                               |
+| rege(x(es)?\|xps?) | {regex, regexes, regexp, regexps}             |
+| go*gle             | {gle, gogle, google, gooogle, goooogle, ...}  |
+| go+gle             | {gogle, google, gooogle, goooogle, ...}       |
+| g(oog)+le          | {google , googoogoogle, googoogoogoogle, ...} |
+
+
 
 ## Automata
 
