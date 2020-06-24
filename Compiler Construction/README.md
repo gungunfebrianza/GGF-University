@@ -91,6 +91,12 @@ Contoh **length of string**.
 
 > Jika w = abbac, maka |w| = 5               
 
+**Syntax** mengacu ke bagaimana cara sekumpulan **symbol** digabungkan untuk membentuk sebuah kalimat dari sebuah bahasa. 
+
+**Syntax** menjelaskan relasi formal dengan unsur suatu bahasa, menyediakan deskripsi struktural dari berbagai ekpresi yang merupakan sebuah legal **string** dalam sebuah bahasa. **Syntax** hanya mengatur bentuk dan struktur sebuah **symbol** dalam sebuah bahasa tanpa mempertimbangkan maknanya [12]. 
+
+Oleh karena itu legal atau tidaknya suatu **string** dalam sebuah bahasa yang ingin dibuat harus ditetapkan terlebih dahulu. Sebagai contoh terdapat sebuah bahasa **x** yang mengatur tentang legalitas **syntax** yang dimilikinya.
+
 
 
 ## Regular Expression
@@ -107,4 +113,8 @@ Contoh **length of string**.
 
 ## Extended Backus Naus Form (EBNF) 
 
-## Syntax Diagram
+## Syntax Diagram 
+
+## Bibliography
+
+[1] Slonneger & Kurtz, "Specifying Syntax", *Formal Syntax and Semantics of Programming Languages - A Laboratory Based Approach,*  USA : Addison-Wesley, 1994. pp 1
