@@ -2,6 +2,30 @@
 
 ## Gun Gun Febrianza
 
+## Content Table
+
+- Setup Development Tools
+  - Installation Prerequisites
+  - Verify Prerequisites
+  - Antlr Project
+  - Antlr Dashboard
+- Syntax
+  - Syntax Rule
+    - Kleene Closure
+    - Positive Closure
+    - Prefix
+    - Suffix
+    - Substring
+- Regular Expression
+  - Regular Definition
+- Automata
+- Grammar
+- Metalanguage
+- Derivation
+- Parse Tree
+- EBNF
+- Syntax Diagram
+
 ## Setup Development Tools
 
 ### Installation Prerequisites
