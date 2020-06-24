@@ -110,10 +110,22 @@ Oleh karena itu legal atau tidaknya suatu **string** dalam sebuah bahasa yang in
 
 Sebuah bahasa bisa memiliki sekumpulan **string** yang terbatas dan tidak terbatas, sebagai contoh jika **L** dan **M** adalah sebuah bahasa dimana **L = {xor, xix, xyz}** dan **M = {ex, xix}** maka ada beberapa operasi yang bisa dilakukan pada bahasa tersebut. 
 
-1. *Union* L∪M = {xor, xix, xyz, ex}                        
-2. *Concatenation* LM = {xorex, xorxix, xixex, xixxix, xyzex, xyzxix}
-3. *Exponentiation* L<sup>2</sup> = LL
-4. *Definition* L<sup>0</sup> = {∈} dan L<sup>1</sup> = L
+1. ***Union*** L∪M = {xor, xix, xyz, ex}                        
+2. ***Concatenation*** LM = {xorex, xorxix, xixex, xixxix, xyzex, xyzxix}
+3. ***Exponentiation*** L<sup>2</sup> = LL
+4. ***Definition*** L<sup>0</sup> = {∈} dan L<sup>1</sup> = L
+
+#### Kleene Closure
+
+**Kleene closure** dari bahasa L dinotasikan dengan L<sup>*</sup> yang artinya kosong atau terdapat lebih dari 1 dari L.
+
+> L<sup>*</sup> = L<sup>0</sup> ∪ L<sup>1</sup> ∪ L<sup>2</sup> ∪ L<sup>3</sup> . . . ∪ L<sup>n</sup> . . .                        
+
+Sebagai contoh jika L = {a,b} maka jika L<sup>*</sup> :
+
+> L<sup>*</sup> = {∈, a, b, aa, ab, ab, ba, bb, aaa, aba, baa, . . . }
+
+
 
 ## Regular Expression
 
