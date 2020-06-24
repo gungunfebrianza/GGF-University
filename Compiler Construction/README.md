@@ -244,6 +244,10 @@ Dimana **letter** adalah **Regular Expression** untuk **set of all upper-case** 
 
 ## Automata
 
+Proses Penerimaan *String* oleh *Finite Automaton* [5] 
+
+
+
 **Automata** atau **automaton** adalah model abstrak dari komputer digital. 
 
 Sebuah **Automaton** memiliki mekanisme untuk membaca **input**, dimana **input** tersebut adalah **string** dari sebuah **alphabet**. Input ini secara aktual ditulis pada sebuah “input file”, yang hanya bisa dibaca oleh **automaton** tanpa memiliki kemampuan untuk mengubahnya. 
@@ -274,6 +278,24 @@ q0 ∈ Q = q0 elemen dari Q yang menjadi *start state*
 
 F ⊆ Q = F *single* elemen atau *subset* dari *set* Q untuk *final state*
 
+Mekanisme *input* hanya mampu bergerak dari kiri kekanan dan hanya membaca satu *symbol* untuk setiap langkahnya. 
+
+*Transition* dari satu *internal state* ke *state* lainya diatur oleh fungsi *transition* δ. 
+
+Jika δ (*q*0 , *a*) *q*1, maka jika *Deterministic Finite Automaton* berada pada *state* *q*0 dan *input symbol* saat ini adalah *a* maka *Deterministic Finite Automaton* akan melaju ke *state* *q*1. 
+
+Sebagai contoh terdapat desain *Deterministic Finite Automaton*, dengan M yang hanya bisa menerima bahasa L(M) = *w*∈(*a*, *b*)* dengan syarat *w* tidak boleh mengandung tiga *consecutive* b’s. Maka *M* = (*Q*, S, d, *q* , *F* ) dimana :
+
+*Q* = {*q*0, *q*1, *q*2, *q*3}
+
+S = {*a*, *b*}
+
+*q*0 sebagai *initial state*
+
+*F* = {*q*0, *q*1, *q*2,} adalah *final states* dan fungsi transisi d adalah sebagai berikut:
+
+
+
 ## Grammar
 
 ## Metalanguage 
@@ -295,3 +317,5 @@ F ⊆ Q = F *single* elemen atau *subset* dari *set* Q untuk *final state*
 [3] Goyvaerts & Levithan*,* "Introduction to Regular Expression", *O’reilly. Regular Expression Cockbook,* USA : O’Reilly 2009. pp.2
 
 [4] Singh*,* Ravendra, Varshney, Manish and Sharma, Vivek. "Introduction to Compiler", *Design and Implementation of Compiler,* New Delhi *:* New Age International Publisher, 2010. pp 43
+
+[5] Levelt, "Finite Automata" *Introduction to The Theory of Formal Languages and Automata,* Amsterdam : John Benjamin Publishing Company, 2008. pp 51
