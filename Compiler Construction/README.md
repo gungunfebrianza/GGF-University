@@ -171,7 +171,12 @@ Sebuah bahasa yang dinotasikan oleh **regular expression** disebut dengan **regu
 
 **Regular expression** pada sebuah **alphabet** menentukan bahasa dengan mengacu kepada aturan-aturan sebagai berikut.
 
-
+1. ε adalah sebuah *regular expression* yang dinotasikan dengan {ε} bahwa di dalamnya hanya terdapat *set* *empty string*.
+2. Jika *a* adalah sebuah *symbol* dalam *alphabet*, maka *a* adalah *regular* *expression* yang dinotasikan dengan {*a*} bahwa di dalamnya terdapat *set* yang terdiri dari *string* *a*.
+3. Dikatakan ‘*r*’ dan ‘*s*’ adalah *regular expression* yang dinotasikan dengan L(*r*) dan L(*s*), maka :
+   - (*r*)|(*s*) adalah *regular expression* dengan notasi L(r) ∪ L(s)
+   - (*r*)(*s*) adalah *regular expression* dengan notasi L(r)L(s)
+   - (*c*) (*r*)\* adalah RE dengan notasi (L(r))*
 
 ## Automata
 
