@@ -326,4 +326,4 @@ Secara umum bahasa bisa didefinisikan dengan dua cara yang berbeda yaitu sebagai
 
 [5] Levelt, "Finite Automata" *Introduction to The Theory of Formal Languages and Automata,* Amsterdam : John Benjamin Publishing Company, 2008. pp 51
 
-[6]
+[6] Sebesta, Robert, "Describing Syntax and Semantic", *Concept of Programming Languages, 7th Edition,* Malaysia, : Pearson, 2016. pp 136 
