@@ -298,6 +298,12 @@ S = {*a*, *b*}
 
 ## Grammar
 
+Secara umum bahasa bisa didefinisikan dengan dua cara yang berbeda yaitu sebagai **recognition** dan **generation** [6]. 
+
+
+
+
+
 ## Metalanguage 
 
 ## Derivation 
@@ -319,3 +325,5 @@ S = {*a*, *b*}
 [4] Singh*,* Ravendra, Varshney, Manish and Sharma, Vivek. "Introduction to Compiler", *Design and Implementation of Compiler,* New Delhi *:* New Age International Publisher, 2010. pp 43
 
 [5] Levelt, "Finite Automata" *Introduction to The Theory of Formal Languages and Automata,* Amsterdam : John Benjamin Publishing Company, 2008. pp 51
+
+[6]
