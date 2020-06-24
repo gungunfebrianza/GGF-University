@@ -224,3 +224,5 @@ Sebagai contoh di bawah ini adalah **regular definition** yang menjadi **set** u
 [2] Felix & Victor, "Introducing Regular Expression", *Mastering Python Regular Expression,* Mumbai, : Packt Publisher, 2014. pp 5
 
 [3] Goyvaerts & Levithan*,* "Introduction to Regular Expression", *O’reilly. Regular Expression Cockbook,* USA : O’Reilly 2009. pp.2
+
+[4] Singh*,* Ravendra, Varshney, Manish and Sharma, Vivek. "Introduction to Compiler", *Design and Implementation of Compiler,* New Delhi *:* New Age International Publisher, 2010. pp 43
