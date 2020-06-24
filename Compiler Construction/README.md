@@ -21,6 +21,7 @@
 4. Automata
    - Deterministic Finite Automaton (DFA)
 5. Grammar
+   - Formal Method
 6. Metalanguage
 7. Derivation
 8. Parse Tree
@@ -244,7 +245,7 @@ Dimana **letter** adalah **Regular Expression** untuk **set of all upper-case** 
 
 ## Automata
 
-Proses Penerimaan *String* oleh *Finite Automaton* [5] 
+Proses Penerimaan **String** oleh **Finite Automaton** [5] 
 
 
 
@@ -272,27 +273,27 @@ Q = *Finite set* dari *“internal state”*
 
 Σ = *Finite set* *symbol* yang dipanggil “*input alphabet*”
 
-δ = *lowercase delta* sebagai notasi fungsi *transition*
+δ = *lowercase delta* sebagai notasi fungsi **transition**
 
-q0 ∈ Q = q0 elemen dari Q yang menjadi *start state*
+q0 ∈ Q = q0 elemen dari Q yang menjadi **start state**
 
-F ⊆ Q = F *single* elemen atau *subset* dari *set* Q untuk *final state*
+F ⊆ Q = F *single* elemen atau **subset** dari **set** Q untuk *final state*
 
-Mekanisme *input* hanya mampu bergerak dari kiri kekanan dan hanya membaca satu *symbol* untuk setiap langkahnya. 
+Mekanisme **input** hanya mampu bergerak dari kiri kekanan dan hanya membaca satu **symbol** untuk setiap langkahnya. 
 
-*Transition* dari satu *internal state* ke *state* lainya diatur oleh fungsi *transition* δ. 
+**Transition** dari satu **internal state** ke **state** lainya diatur oleh fungsi *transition* δ. 
 
-Jika δ (*q*0 , *a*) *q*1, maka jika *Deterministic Finite Automaton* berada pada *state* *q*0 dan *input symbol* saat ini adalah *a* maka *Deterministic Finite Automaton* akan melaju ke *state* *q*1. 
+Jika δ (*q*0 , *a*) *q*1, maka jika **Deterministic Finite Automaton** berada pada *state* *q*0 dan *input symbol* saat ini adalah *a* maka **Deterministic Finite Automaton** akan melaju ke *state* *q*1. 
 
-Sebagai contoh terdapat desain *Deterministic Finite Automaton*, dengan M yang hanya bisa menerima bahasa L(M) = *w*∈(*a*, *b*)* dengan syarat *w* tidak boleh mengandung tiga *consecutive* b’s. Maka *M* = (*Q*, S, d, *q* , *F* ) dimana :
+Sebagai contoh terdapat desain **Deterministic Finite Automaton**, dengan M yang hanya bisa menerima bahasa L(M) = *w*∈(*a*, *b*)* dengan syarat *w* tidak boleh mengandung tiga **consecutive** b’s. Maka *M* = (*Q*, S, d, *q* , *F* ) dimana :
 
 *Q* = {*q*0, *q*1, *q*2, *q*3}
 
 S = {*a*, *b*}
 
-*q*0 sebagai *initial state*
+*q*0 sebagai **initial state**
 
-*F* = {*q*0, *q*1, *q*2,} adalah *final states* dan fungsi transisi d adalah sebagai berikut:
+*F* = {*q*0, *q*1, *q*2,} adalah **final states** dan fungsi transisi d adalah sebagai berikut:
 
 
 
@@ -310,7 +311,11 @@ Efek lainya R mempunyai kapasitas untuk menolak dan menerima **string** yang dib
 
 Ketika R menerima **input string** dari karakter yang berada pada **alphabet** Σ dan hanya menerima ketika ada di dalam L, maka R adalah deskripsi dari L. 
 
+### Formal Method
 
+Pada **Language Generator** sebuah **statements** dari suatu bahasa bisa dibuat, **formal method** untuk mendefinisikan suatu **syntax** dari bahasa pemrograman disebut dengan **grammar**. **Formal Method** lebih sukses menjelaskan tentang **syntax** sebuah bahasa pemrograman daripada **semantic** sebuah bahasa pemrograman. 
+
+Mendefinisikan **syntax** bahasa pemrograman hampir mirip dengan merumuskan tata bahasa yang ada pada **natural language**. Menjelaskan bagaimana sebuah **symbol** dapat dibentuk kedalam **phrase** bahasa yang valid. **Formal Grammar** yang diusulkan oleh **Noam Chomsky** untuk **natural language** juga bisa diterapkan kedalam bahasa pemrograman.
 
 ## Metalanguage 
 
