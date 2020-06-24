@@ -42,3 +42,11 @@
     C:\antlr\antlr-4.8-complete.jar
     ```
 
+### Verify Prerequisites
+
+Execute this command under cmd.exe :
+
+```
+"%JAVA_EXEC%" -jar "%Antlr4ToolPath%" 
+```
+
