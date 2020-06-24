@@ -121,9 +121,19 @@ Sebuah bahasa bisa memiliki sekumpulan **string** yang terbatas dan tidak terbat
 
 > L<sup>*</sup> = L<sup>0</sup> ∪ L<sup>1</sup> ∪ L<sup>2</sup> ∪ L<sup>3</sup> . . . ∪ L<sup>n</sup> . . .                        
 
-Sebagai contoh jika L = {a,b} maka jika L<sup>*</sup> :
+Sebagai contoh jika **L = {a,b}** maka jika L<sup>*</sup> :
 
 > L<sup>*</sup> = {∈, a, b, aa, ab, ab, ba, bb, aaa, aba, baa, . . . }
+
+#### Positive Closure
+
+**Positive closure** dari bahasa L dinotasikan dengan L<sup>+</sup> yang artinya satu atau terdapat lebih dari 1 dari L.
+
+> L<sup>+</sup> = L<sup>1</sup> ∪ L<sup>2</sup> ∪ L<sup>3</sup> . . . ∪ L<sup>n</sup> . . .    
+
+Sebagai contoh jika **L = {a,b}** maka jika L<sup>+</sup> :
+
+> L<sup>+</sup> = {a, b, aa, ba, bb, aaa, aba, . . . }
 
 
 
