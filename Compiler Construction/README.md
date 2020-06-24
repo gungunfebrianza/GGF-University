@@ -300,7 +300,15 @@ S = {*a*, *b*}
 
 Secara umum bahasa bisa didefinisikan dengan dua cara yang berbeda yaitu sebagai **recognition** dan **generation** [6]. 
 
+Sebagai contoh pada **Language Recognizer**, dikatakan bahwa kita memiliki sebuah bahasa yang disebut dengan L dan L menggunakan **alphabet** Σ yang berisi sekumpulan **character**. Untuk menjelaskan L secara formal menggunakan metode pengenal (**recognition method**) maka harus membangun konstruksi untuk R yang disebut sebagai alat pengenal.
 
+Alat pengenal ini mempunyai kemampuan untuk membaca **string of character** dari sebuah **alphabet** Σ. 
+
+R akan menunjukan apakah suatu **string input** yang diberikan itu ada atau tidak di dalam L. 
+
+Efek lainya R mempunyai kapasitas untuk menolak dan menerima **string** yang diberikan. Alat seperti itu disebut dengan **filter** untuk memisahkan **statement** yang legal dari **statement** yang tidak legal.
+
+Ketika R menerima **input string** dari karakter yang berada pada **alphabet** Σ dan hanya menerima ketika ada di dalam L, maka R adalah deskripsi dari L. 
 
 
 
