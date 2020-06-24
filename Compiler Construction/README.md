@@ -104,7 +104,16 @@ Oleh karena itu legal atau tidaknya suatu **string** dalam sebuah bahasa yang in
 | 13\*(31/9+7-0)/(80/2+14+9\*3) | 9*(13////)/(5+---+))  |
 | 8*(((9-6)))                   | +2+9                  |
 
+### Syntax Rule
 
+**Syntax Rule** dari sebuah bahasa menentukan **string** mana yang merupakan bagian dari bahasa tersebut. 
+
+Sebuah bahasa bisa memiliki sekumpulan **string** yang terbatas dan tidak terbatas, sebagai contoh jika **L** dan **M** adalah sebuah bahasa dimana **L = {xor, xix, xyz}** dan **M = {ex, xix}** maka ada beberapa operasi yang bisa dilakukan pada bahasa tersebut. 
+
+1. *Union* L∪M = {xor, xix, xyz, ex}                        
+2. *Concatenation* LM = {xorex, xorxix, xixex, xixxix, xyzex, xyzxix}
+3. *Exponentiation* L<sup>2</sup> = LL
+4. *Definition* L<sup>0</sup> = {∈} dan L<sup>1</sup> = L
 
 ## Regular Expression
 
