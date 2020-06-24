@@ -135,6 +135,12 @@ Sebagai contoh jika **L = {a,b}** maka jika L<sup>+</sup> :
 
 > L<sup>+</sup> = {a, b, aa, ba, bb, aaa, aba, . . . }
 
+#### Prefix
+
+**Prefix** adalah sebuah **string** yang diperoleh dengan cara menghapus 0 atau lebih dari 1 akhiran **symbol** dalam sebuah **string**. 
+
+Contoh : **RA** adalah **Prefix** dari **RAM**.
+
 
 
 ## Regular Expression
