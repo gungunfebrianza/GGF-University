@@ -4,6 +4,8 @@
 
 ### Installation Prerequisites
 
+- Install AntlrVSIX [here](https://marketplace.visualstudio.com/items?itemName=KenDomino.AntlrVSIX)
+
 - Install Oracle JDK & JRE [here](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 - Install Java-based Antlr Toolchain [here](https://www.antlr.org/download/antlr-4.8-complete.jar)
@@ -50,3 +52,9 @@ Execute this command under cmd.exe :
 "%JAVA_EXEC%" -jar "%Antlr4ToolPath%" 
 ```
 
+### Antlr Project
+
+1. Open Visual Studio 2019
+2. Create a new project
+3. AntlrFAProject
+4. Run The Project
