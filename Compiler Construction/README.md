@@ -4,27 +4,27 @@
 
 ## Content Table
 
-- Setup Development Tools
-  - Installation Prerequisites
-  - Verify Prerequisites
-  - Antlr Project
-  - Antlr Dashboard
-- Syntax
-  - Syntax Rule
-    - Kleene Closure
-    - Positive Closure
-    - Prefix
-    - Suffix
-    - Substring
-- Regular Expression
-  - Regular Definition
-- Automata
-- Grammar
-- Metalanguage
-- Derivation
-- Parse Tree
-- EBNF
-- Syntax Diagram
+1. Setup Development Tools
+   - Installation Prerequisites
+   - Verify Prerequisites
+   - Antlr Project
+   - Antlr Dashboard
+2. Syntax
+   - Syntax Rule
+     - Kleene Closure
+     - Positive Closure
+     - Prefix
+     - Suffix
+     - Substring
+3. Regular Expression
+   - Regular Definition
+4. Automata
+5. Grammar
+6. Metalanguage
+7. Derivation
+8. Parse Tree
+9. EBNF
+10. Syntax Diagram
 
 ## Setup Development Tools
 
@@ -38,25 +38,25 @@
 
 - **Setup Environment Variable** :
 
-  - JAVA_HOME
+  - **JAVA_HOME**
 
   - ```
     C:\Program Files\Java\jdk-14.0.1
     ```
 
-  - JRE_HOME
+  - **JRE_HOME**
 
   - ```
     C:\Program Files\Java\jre1.8.0_251
     ```
 
-  - JAVA_EXEC
+  - **JAVA_EXEC**
 
   - ```
     C:\Program Files\Java\jdk-14.0.1\bin\java.exe
     ```
 
-  - Antlr4ToolPath
+  - **Antlr4ToolPath**
 
   - ```
     C:\antlr\antlr-4.8-complete.jar
@@ -126,10 +126,10 @@ Oleh karena itu legal atau tidaknya suatu **string** dalam sebuah bahasa yang in
 
 Sebuah bahasa bisa memiliki sekumpulan **string** yang terbatas dan tidak terbatas, sebagai contoh jika **L** dan **M** adalah sebuah bahasa dimana **L = {xor, xix, xyz}** dan **M = {ex, xix}** maka ada beberapa operasi yang bisa dilakukan pada bahasa tersebut. 
 
-1. ***Union*** L∪M = {xor, xix, xyz, ex}                        
-2. ***Concatenation*** LM = {xorex, xorxix, xixex, xixxix, xyzex, xyzxix}
-3. ***Exponentiation*** L<sup>2</sup> = LL
-4. ***Definition*** L<sup>0</sup> = {∈} dan L<sup>1</sup> = L
+1. **Union** L ∪ M = {xor, xix, xyz, ex}                        
+2. **Concatenation** LM = {xorex, xorxix, xixex, xixxix, xyzex, xyzxix}
+3. **Exponentiation** L<sup>2</sup> = LL
+4. **Definition** L<sup>0</sup> = {∈} dan L<sup>1</sup> = L
 
 #### Kleene Closure
 
@@ -171,36 +171,38 @@ Contoh **RA** atau **AM** adalah **substring** dari **RAM**.
 
 ## Regular Expression
 
-**Regular Expression** adalah **text pattern** yang menjelaskan bagaimana bentuk **string** [2]. 
+**Regular Expression** adalah **text pattern** yang menjelaskan bagaimana bentuk suatu **string** [2]. 
 
 Ekspresi tersebut bisa diimplementasikan dalam sebuah **software** menggunakan **Deterministic Finite Automata (DFA)** [3]. 
 
-Di bawah ini adalah contoh notasi **regular expression**.
+Di bawah ini adalah contoh notasi **Regular Expression**.
 
 > Letter (letter|digit)
 
-Setiap **regular expression** ‘r’ menunjukan bahasa ‘L(r)’. 
+Setiap **Regular Expression** ‘r’ menunjukan bahasa ‘L(r)’. 
 
-Sebuah bahasa yang dinotasikan oleh **regular expression** disebut dengan **regular set**. 
+Sebuah bahasa yang dinotasikan oleh **Regular Expression** disebut dengan **Regular Set**. 
 
-**Regular expression** sangat berguna untuk merepresentasikan sekumpulan **string** dalam bentuk **algebraic fashion**. 
+**Regular Expression** sangat berguna untuk merepresentasikan sekumpulan **string** dalam bentuk **Algebraic Fashion**. 
 
-**Regular expression** pada sebuah **alphabet** menentukan bahasa dengan mengacu kepada aturan-aturan sebagai berikut.
+**Regular Expression** pada sebuah **alphabet** menentukan bahasa dengan mengacu kepada aturan-aturan sebagai berikut.
 
-1. ε adalah sebuah **Regular Expression** yang dinotasikan dengan {ε} bahwa di dalamnya hanya terdapat **set empty string**.
-2. Jika *a* adalah sebuah *symbol* dalam *alphabet*, maka *a* adalah *regular* *expression* yang dinotasikan dengan {*a*} bahwa di dalamnya terdapat *set* yang terdiri dari *string* *a*.
-3. Dikatakan ‘*r*’ dan ‘*s*’ adalah *regular expression* yang dinotasikan dengan L(*r*) dan L(*s*), maka :
-   - (*r*)|(*s*) adalah *regular expression* dengan notasi L(r) ∪ L(s)
-   - (*r*)(*s*) adalah *regular expression* dengan notasi L(r)L(s)
-   - (*c*) (*r*)\* adalah RE dengan notasi (L(r))*
+1. **ε** adalah sebuah **Regular Expression** yang dinotasikan dengan {ε} bahwa di dalamnya hanya terdapat **set empty string**.
+2. Jika *a* adalah sebuah **symbol** dalam **alphabet**, maka *a* adalah **Regular Expression** yang dinotasikan dengan {*a*} bahwa di dalamnya terdapat **set** yang terdiri dari **string** *a*.
+3. Dikatakan ‘*r*’ dan ‘*s*’ adalah **Regular Expression** yang dinotasikan dengan L(*r*) dan L(*s*), maka :
+   - (*r*)|(*s*) adalah **Regular Expression** dengan notasi L(r) ∪ L(s)
+   - (*r*)(*s*) adalah **Regular Expression** dengan notasi L(r)L(s)
+   - (*c*) (*r*)\* adalah **Regular Expression** dengan notasi (L(r))*
 
-Contoh operasi aljabar dalam **regular expression**, dikatakan bahwa r, s dan t adalah **regular expression** dengan notasi L(r) L(s) L (t) maka  :
+Contoh operasi aljabar dalam **Regular Expression**, 
 
-1. *r* | *s* adalah RE dengan notasi L(*r*) ∪ L(*s*). ( | ) komutatif.
+Dikatakan bahwa r, s dan t adalah **Regular Expression** dengan notasi L(r) L(s) L (t) maka  :
+
+1. *r* | *s* adalah **Regular Expression** dengan notasi L(*r*) ∪ L(*s*). ( | ) komutatif.
 2. *r* | (*s* | *t* ) = ( *r* | *s* ) | *t*. ( | ) asosiatif.   
-3. (*rs*) *t* = *r* ( *st* ). Disini *concatenation* adalah asosiatif.
-4. *r* (*s* | *t*) = *rs* | *rt* . Disini *concatenation* adalah distributif.
-5. *εr* = *r* = *rε*. Disini ε adalah identitas *element*.
+3. (*rs*) *t* = *r* ( *st* ). Disini **concatenation** adalah asosiatif.
+4. *r* (*s* | *t*) = *rs* | *rt* . Disini **concatenation** adalah distributif.
+5. *εr* = *r* = *rε*. Disini ε adalah identitas **element**.
 6. r\* = (*r* | *ε*)*    
 
 Contoh **Regular Expression** :
@@ -223,9 +225,17 @@ Contoh **Regular Expression** :
 
 ### Regular Definition
 
-**Regular Definition** adalah nama yang diberikan untuk **regular expression** tertentu dan menggunakan nama tersebut dalam **regular expression** lainya [4]. 
+**Regular Definition** adalah nama yang diberikan untuk **Regular Expression** tertentu dan menggunakan nama tersebut dalam **regular expression** lainya [4]. 
 
 Sebagai contoh di bawah ini adalah **regular definition** yang menjadi **set** untuk **identifier** dalam bahasa pemrograman umumnya yang dijelaskan sebagai dari sekumpulan **string of letter** dan **digit** yang diawali dengan **letter**.
+
+> letter → A | B | . . . | Z | a | b | . . . | z	
+
+> digit → 0 | 1 | 2 | . . . | 9	
+
+> id →  letter(letter | digit)*
+
+
 
 ## Automata
 
