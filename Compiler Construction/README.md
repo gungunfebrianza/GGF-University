@@ -514,7 +514,7 @@ Representasi **Syntax Rules** dalam bentuk **Syntax Diagram**.
 
 2. **Standard Library** atau **Library** 
 
-3. ***Ecosystem 3rd Party Libraries*** atau **package manager**.
+3. **Ecosystem 3rd Party Libraries** atau **package manager**.
 
 
 
@@ -560,3 +560,32 @@ Berdasarkan bahasa terdapat **english based programming language** dan **non-eng
 
 [8] O'riordan*,* "Introduction to C", *Learning GNU C, GNU,* 2007. pp 3
 
+
+
+## Appendix
+
+### Example EBNF Grammar
+
+### < Program>
+
+```
+<program> : <deklarasi_program>* EOF
+```
+
+![](assets/rule1.png)
+
+### < Deklarasi_Program>
+
+```
+<deklarasi_program> : <Program> <pengenal> <kurawal_kiri> <kelas> + <kurawal_kanan>
+```
+
+![](assets/rule2.png)
+
+### < Kelas>
+
+```
+<kelas> : <deklarasi_kelas> 
+```
+
+![](assets/rule3.png)
