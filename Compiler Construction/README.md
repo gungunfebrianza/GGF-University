@@ -384,7 +384,13 @@ Sebuah **grammar** bekerja seperti **generative device** untuk mendefinisikan se
 
 Di dalam sebuah **grammar** bahasa pemrograman yang sudah lengkap, **start symbol** merepresentasikan program yang telah komplit. Contoh **grammar** X yang akan digunakan untuk mengilustrasikan **derivation**.
 
+Contoh **Grammar X** :
 
+| Rules | Grammar                                                      |
+| ----- | ------------------------------------------------------------ |
+| 1     | **< assign> → < id> = < expr>**                              |
+| 2     | **< id> → A**                                                |
+| 3     | **< expr> → < id> + < expr> \| < id> * < expr> \| ( < expr>) \| < id>** |
 
 
 
