@@ -436,9 +436,15 @@ Setiap **internal node** yang ada di dalam **parse tree** diberi label dengan **
 
 Pengembangan **Metalanguage** dari **BNF** adalah **Extended Backus Naur Form (EBNF)**, pada versi **extended** terdapat peningkatan kemampuan dalam **readability** dan **write-ability**. Terdapat tiga ekstensi tambahan pada **EBNF** yaitu penambahan notasi **bracket**, **brace** dan **parenthesis**, pengaruh notasinya bisa dilihat sebagai berikut.
 
+### EBNF Bracket Notation
+
+Notasi **bracket** pada **EBNF**
+
+| EBNF | <if_stmt> → if (< expression>) < statement> [else < statement>] |
+| ---- | ------------------------------------------------------------ |
+| BNF  | **<if_stmt> → if (< expression>) < statement> \| if (< expression>) < statement> else < statement>** |
 
 
-### EBNF Notation
 
 ## Syntax Diagram 
 
