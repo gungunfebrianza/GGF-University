@@ -488,7 +488,8 @@ Representasi **Syntax Rules** dalam bentuk **Syntax Diagram**.
 
 **Semantic** menyibak makna **syntactically** dari sebuah **valid string** dalam sebuah bahasa. Sebuah **semantic** dalam bahasa pemrograman bisa dibedakan menjadi dua level yaitu **static semantic** dan **dynamic semantic**.
 
-
+1. **Static Semantic** atau **typing** digunakan untuk mendeteksi kesalahan dimana secara **syntactical** benar tetapi kegagalan eksekusi akan terjadi saat **runtime**. Pada **weak typing** atau **Loosely Typed Language**, variabel sebagai tempat untuk menyimpan informasi tidak memiliki **data types** yang spesifik karena hanya mampu membuat **generic variabel** tanpa harus menetapkan **data types** secara eksplisit. Berbeda dengan **strong typing** atau **Strongly Typed Language** variabel yang dibuat memiliki **data types** yang jelas seperti **integer**, **float**, **double** dan sebagainya. 
+2. 
 
 
 
