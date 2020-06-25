@@ -349,7 +349,11 @@ Keseluruhanya disebut dengan **rule** atau **production**.
 Total = total1 + total2
 ```
 
+**Abstractions** dari deskripsi **Backus-Naur Form**, atau **grammar**, seringkali dipanggil **nonterminal symbols**, atau **nonterminal** saja dan **lexemes** juga **tokens** dari **rule** dipanggil dengan terminal **symbols**. Di dalam **grammar** terdapat sekumpulan koleksi **rule**. 
 
+**Nonterminal symbols** bisa memiliki dua atau lebih definisi yang berbeda, merepresentasikan dua atau lebih kemungkinan bentuk **syntactic** dari suatu bahasa. Multi definisi bisa ditulis sebagai sebuah **single rule**, setiap definisi yang berbeda dipisahkan oleh **symbol** **|**, yang artinya atau. 
+
+Sebagai contoh, pada bahasa **Java** sebuah **if statement** bisa dijelaskan dengan **rules** sebagai berikut.
 
 ## Derivation 
 
