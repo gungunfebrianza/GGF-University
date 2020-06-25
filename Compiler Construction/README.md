@@ -313,9 +313,21 @@ Ketika R menerima **input string** dari karakter yang berada pada **alphabet** Î
 
 ### Formal Method
 
-Pada **Language Generator** sebuah **statements** dari suatu bahasa bisa dibuat, **formal method** untuk mendefinisikan suatu **syntax** dari bahasa pemrograman disebut dengan **grammar**. **Formal Method** lebih sukses menjelaskan tentang **syntax** sebuah bahasa pemrograman daripada **semantic** sebuah bahasa pemrograman. 
+Pada **Language Generator** sebuah **statements** dari suatu bahasa bisa dibuat, **Formal Method** untuk mendefinisikan suatu **syntax** dari bahasa pemrograman disebut dengan **grammar**. **Formal Method** lebih sukses menjelaskan tentang **syntax** sebuah bahasa pemrograman daripada **semantic** sebuah bahasa pemrograman. 
 
-Mendefinisikan **syntax** bahasa pemrograman hampir mirip dengan merumuskan tata bahasa yang ada pada **natural language**. Menjelaskan bagaimana sebuah **symbol** dapat dibentuk kedalam **phrase** bahasa yang valid. **Formal Grammar** yang diusulkan oleh **Noam Chomsky** untuk **natural language** juga bisa diterapkan kedalam bahasa pemrograman.
+Mendefinisikan **syntax** bahasa pemrograman hampir mirip dengan merumuskan tata bahasa yang ada pada **Natural Language**. Menjelaskan bagaimana sebuah **symbol** dapat dibentuk kedalam **phrase** bahasa yang valid. **Formal Grammar** yang diusulkan oleh **Noam Chomsky** untuk **Natural Language** juga bisa diterapkan kedalam bahasa pemrograman.
+
+Sebuah **Grammar** terdiri dari empat bagian **< S,N,P,S>** :
+
+1. **Finite Set** S sebuah **Terminal Symbol** yaitu **alphabet** dari bahasa yang digabungkan untuk membentuk sebuah **statements** atau **sentences** dalam sebuah bahasa. 
+
+2. **Finite Set** N sebuah **Nonterminal Symbol** atau **syntactic categories** masing masingnya merepresentasikan koleksi **subphrase** dari sebuah **statements** atau **sentences**.
+
+3. **Finite Set** P yang menjadi sebuah **Production** atau **Rules** untuk menjelaskan bagaimana setiap **nonterminal** dijelaskan dalam **term** dari **terminal symbol** atau **nonterminal symbol**. Pilihan **nonterminal** menentukan **phrase** bahasa yang kita anggap memiliki makna.
+
+4. **Nonterminal** S yang menjadi **start symbol**.
+
+
 
 ## Metalanguage 
 
