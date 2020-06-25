@@ -507,7 +507,9 @@ Representasi **Syntax Rules** dalam bentuk **Syntax Diagram**.
 
 ## Compilation Process
 
+Berdasarkan abstraksi, bahasa pemrograman bisa diurut menjari tiga kategori yaitu **Machine Language**, **Assembly Language** dan **High Level Language** [8]. Berdasarkan **translator** terdapat dua bahasa pemrograman yaitu **Compiled Language** dan **Interpreted Language**.  
 
+Berdasarkan bahasa terdapat **english based programming language** dan **non-english based programming language**.
 
 ### Source Code 
 
@@ -542,3 +544,6 @@ Representasi **Syntax Rules** dalam bentuk **Syntax Diagram**.
 [6] Sebesta, Robert, "Describing Syntax and Semantic", *Concept of Programming Languages, 7th Edition,* Malaysia, : Pearson, 2016. pp 136 
 
 [7] Bansal, "Syntax & Semantic", Introduction to Programming Languages, USA : CRC Press, 2010. pp 89
+
+[8] O'riordan*,* "Introduction to C", *Learning GNU C, GNU,* 2007. pp 3
+
