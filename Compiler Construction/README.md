@@ -440,9 +440,21 @@ Pengembangan **Metalanguage** dari **BNF** adalah **Extended Backus Naur Form (E
 
 Notasi **bracket** pada **EBNF**
 
-| EBNF | <if_stmt> → if (< expression>) < statement> [else < statement>] |
-| ---- | ------------------------------------------------------------ |
-| BNF  | **<if_stmt> → if (< expression>) < statement> \| if (< expression>) < statement> else < statement>** |
+| EBNF    | <if_stmt> → if (< expression>) < statement> [else < statement>] |
+| ------- | ------------------------------------------------------------ |
+| **BNF** | **<if_stmt> → if (< expression>) < statement> \| if (< expression>) < statement> else < statement>** |
+
+Penggunaan notasi **bracket** pada **RHS rules EBNF** membuat **metalanguage** dari **Extended Backus Naur Form (EBNF)** lebih hemat dari **Backus Naur Form (BNF)**.
+
+### EBNF Brace Notation
+
+Notasi **brace** pada **EBNF**
+
+| EBNF    | <ident_list> → < identifier> {, < identifier>}   |
+| ------- | ------------------------------------------------ |
+| **BNF** | **<ident_list> → < identifier> , < ident_list>** |
+
+Penggunaan notasi **brace** pada **RHS rules EBNF** juga membuat **metalanguage** dari **Extended Backus Naur Form (EBNF)** lebih hemat karena tidak perlu melakukan **recursion** dan membuat lebih dari satu **rules**.
 
 
 
