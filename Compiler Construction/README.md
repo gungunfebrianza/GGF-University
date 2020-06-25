@@ -376,21 +376,37 @@ Pada matematika panjang sebuah variable dinotasikan di dalam **ellipsis** (…);
 <ident_list> → identifier | identifier, <ident_list>
 ```
 
-
-
 ## Derivation 
 
-Sebuah **grammar** bekerja seperti **generative device** untuk mendefinisikan sebuah bahasa. Kalimat dari bahasa mampu dihasilkan melalui urutan aplikasi  dari sebuah **rule**, diawali dengan **special nonterminal** dari **grammar** yang dikenal dengan **start symbol**. Urutan dari aplikasi **rule** ini disebut dengan **derivation**. 
+Sebuah **Grammar** bekerja seperti **Generative Device** untuk mendefinisikan sebuah bahasa. Kalimat dari bahasa mampu dihasilkan melalui urutan aplikasi dari sebuah **Production Rule**, diawali dengan **Special Nonterminal** dari **Grammar** yang dikenal dengan **start symbol**. Urutan dari aplikasi **Production Rule** ini disebut dengan **Derivation**. 
 
-Di dalam sebuah **grammar** bahasa pemrograman yang sudah lengkap, **start symbol** merepresentasikan program yang telah komplit. Contoh **grammar** X yang akan digunakan untuk mengilustrasikan **derivation**.
+Di dalam sebuah **Grammar** bahasa pemrograman yang sudah lengkap, **Start Symbol** merepresentasikan program yang telah komplit. Contoh **Grammar** **X** yang akan digunakan untuk mengilustrasikan **Derivation**.
 
 Contoh **Grammar X** :
 
 | Rules | Grammar                                                      |
 | ----- | ------------------------------------------------------------ |
 | 1     | **< assign> → < id> = < expr>**                              |
-| 2     | **< id> → A**                                                |
+| 2     | **< id> → A \| B \| C**                                      |
 | 3     | **< expr> → < id> + < expr> \| < id> * < expr> \| ( < expr>) \| < id>** |
+
+Pada **Grammar** di atas hanya terdapat satu bentuk **Statement** yaitu **assign**, diikuti dengan **identifier** yang hanya terdiri dari **A** atau **B** atau **C** dan **Expression** bisa memiliki satu atau lebih dari dua **identifier** yang dipisahkan oleh **operator** + atau *. 
+
+**Derivation** dari program yang ada dibahasa ini adalah sebagai berikut.
+
+**Derrivation Grammar X**
+
+| Steps | Derivation                    |
+| ----- | ----------------------------- |
+| 1     | < assign> => < id> = < expr>  |
+| 2     | => A = < expr>                |
+| 3     | => A = < id> * < expr>        |
+| 4     | => A = B * < expr>            |
+| 5     | => A = B * ( < expr>)         |
+| 6     | => A = B * ( < id> + < expr>) |
+| 7     | => A = B * ( A + < expr>)     |
+| 8     | => A = B * ( A + < id>)       |
+| 9     | => A = B * ( A + C )          |
 
 
 
@@ -398,7 +414,33 @@ Contoh **Grammar X** :
 
 ## Extended Backus Naus Form (EBNF) 
 
+### EBNF Notation
+
 ## Syntax Diagram 
+
+## Semantic 
+
+## Pragmatic
+
+## Compilation Process
+
+### Source Code 
+
+### Lexical Analyzer 
+
+### Syntax Analyzer 
+
+### Symbol Table 
+
+### Intermediate Code Generator 
+
+### Semantic Analyzer 
+
+### Optimization 
+
+### Code Generation
+
+
 
 ## Bibliography
 
