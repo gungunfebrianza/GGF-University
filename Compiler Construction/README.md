@@ -589,3 +589,24 @@ Berdasarkan bahasa terdapat **english based programming language** dan **non-eng
 ```
 
 ![](assets/rule3.png)
+
+### < Deklarasi_Kelas>
+
+```
+<deklarasi_kelas> : <ciri_akses>? <ciri>? <kelas> <pengenal> 
+                    <kurawal_kiri> <metode_utama>* <deklarasi_metode>*<kurawal_kanan>
+
+```
+
+![](assets/rule4a.png)
+
+![](assets/rule4b.png)
+
+### < Metode_Utama>
+
+```
+<metode_utama> : <ciri> <nilai_balik> utama()' <Kurawal_kiri> 
+                        <pernyataans> <Kurawal_kanan>
+```
+
+![](C:\Users\Gun Gun Febrianza\Pictures\GGF-University\Compiler Construction\assets\rule5.png)
