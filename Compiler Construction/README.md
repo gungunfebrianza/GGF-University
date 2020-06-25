@@ -470,21 +470,27 @@ Penggunaan notasi **parenthesis** pada **RHS rules EBNF** membuat **metalanguage
 
 ## Syntax Diagram 
 
-Versi visualisasi dari sebuah **production** disebut dengan **syntax diagram** [7]. **Syntax diagram** dikembangkan oleh Niklaus Wirth pada tahun 1970. Sebuah **syntax diagram** terdiri dari tiga komponen yaitu nonterminal **symbol**, **terminal symbol** dan **directed edge**. 
+Versi visualisasi dari sebuah **production** disebut dengan **syntax diagram** [7]. **Syntax diagram** dikembangkan oleh **Niklaus Wirth** pada tahun 1970. Sebuah **syntax diagram** terdiri dari tiga komponen yaitu **nonterminal** **symbol**, **terminal symbol** dan **directed edge**. 
 
 Bagian kiri dari **syntax diagram** adalah **nonterminal** dari **production rules** atau **LHS** dan bagian kanan dari **syntax diagram** adalah campuran dari **terminal**, **nonterminal** atau **RHS** dan **directed edge**. Untuk menerjemahkan sebuah **syntax rules** kedalam **syntax diagram** terdapat lima aturan diantaranya :
 
-1. Sebuah *Concatenation* pada lebih dari satu *symbol* dimodelkan dengan bentuk serangkaian *symbol* dalam satu *path*.
-2. Sebuah *Production Rules* yang memiliki makna lebih dari satu atau pada EBNF disebut *grouping* dimodelkan dengan bentuk *parallel* antara dua *node* atau lebih.
-3. Sebuah *Tail*-*recursive* dimodelkan seperti perulangan yang bisa kembali lagi ketempat awal untuk memulai atau tidak sama sekali.
-4. *Empty symbol*, dengan notasi ε, dimodelkan dalam bentuk garis lurus.
-5. Sebuah *optional definition* dimodelkan dengan bentuk dua buah jalan yang bisa kita lalui tanpa melewati suatu *symbol* atau dengan melewati suatu *symbol* terlebih dahulu.
+1. Sebuah **Concatenation** pada lebih dari satu **symbol** dimodelkan dengan bentuk serangkaian **symbol** dalam satu **path**.
+2. Sebuah **Production Rules** yang memiliki makna lebih dari satu atau pada EBNF disebut **grouping** dimodelkan dengan bentuk **parallel** antara dua **node** atau lebih.
+3. Sebuah **Tail-recursive** dimodelkan seperti perulangan yang bisa kembali lagi ketempat awal untuk memulai atau tidak sama sekali.
+4. **Empty symbol**, dengan notasi ε, dimodelkan dalam bentuk garis lurus.
+5. Sebuah **Optional Definition** dimodelkan dengan bentuk dua buah jalan yang bisa kita lalui tanpa melewati suatu **symbol** atau dengan melewati suatu **symbol** terlebih dahulu.
 
-Representasi *syntax rules* dalam bentuk *syntax diagram*.
+Representasi **Syntax Rules** dalam bentuk **Syntax Diagram**.
 
 
 
 ## Semantic 
+
+**Semantic** menyibak makna **syntactically** dari sebuah **valid string** dalam sebuah bahasa. Sebuah **semantic** dalam bahasa pemrograman bisa dibedakan menjadi dua level yaitu **static semantic** dan **dynamic semantic**.
+
+
+
+
 
 ## Pragmatic
 
