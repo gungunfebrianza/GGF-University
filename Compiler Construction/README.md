@@ -366,6 +366,16 @@ Atau dengan **rule** :
 <if_stmt> → if ( <logic_expr> ) <stmt> | if ( <logic_expr> ) <stmt> else <stmt>
 ```
 
+Pada **rule** ini, **< stmt>** merepresentasikan **single statement** atau **compound statement**. Meskipun **BNF** sangat sederhana, ini cukup **powerful** untuk menggambarkan lebih dekat semua **syntax** yang ada di dalam bahasa pemrograman. Secara khusus, bisa menggambarkan **list** konstruksi yang sama, konstruksi mana saja yang harus didahulukan, struktur bersarang sedalam apapun, mengenali **operator precedence** dan **associative**.
+
+Pada matematika panjang sebuah variable dinotasikan di dalam **ellipsis** (…); 1,2..n sebagai contoh. Untuk menjelaskan sebuah **list BNF** tidak menerima **ellipsis** jadi metode alternatif dibutuhkan untuk menggambarkan **list** secara **syntactic** dalam bahasa pemrograman adalah **recursion**. 
+
+**Recursion** digunakan untuk menggambarkan **list** di dalam banyak **grammar**. Sebuah **rule** dikatakan **recursive** jika **LHS** yang dimilikinya muncul di **RHS**. **Rules** di bawah ini adalah ilustrasi bagaimana sebuah **recursion** digunakan untuk menggambarkan sebuah **list**.
+
+```
+<ident_list> → identifier | identifier, <ident_list>
+```
+
 
 
 ## Derivation 
