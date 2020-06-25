@@ -418,6 +418,20 @@ Setiap **strings** di dalam **derivation**, termasuk **< program>**, disebut den
 
 ## Parse Tree
 
+Salah satu fitur lain dalam **grammar** adalah secara alami mampu menggambarkan hirarki dari **syntactic structure** sebuah **sentences** dari bahasa yang telah dibuat. Struktur hirarki tersebut adalah **Parse Tree**. 
+
+Sebagai contoh, di bawah ini adalah contoh representasi **parse tree** dari **assignment statement** pada **grammar** X, 
+
+```
+A = B * (A + C)
+```
+
+**Parse Tree Representation**
+
+
+
+
+
 ## Extended Backus Naus Form (EBNF) 
 
 ### EBNF Notation
