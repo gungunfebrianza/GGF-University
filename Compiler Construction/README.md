@@ -466,7 +466,15 @@ Notasi **parenthesis** pada **EBNF**
 
 Penggunaan notasi **parenthesis** pada **RHS rules EBNF** membuat **metalanguage** dari **Extended Backus Naur Form (EBNF)** mampu menentukan **grouping** pada suatu **terminal** atau **nonterminal**.  
 
+
+
 ## Syntax Diagram 
+
+Versi visualisasi dari sebuah **production** disebut dengan **syntax diagram** [7]. **Syntax diagram** dikembangkan oleh Niklaus Wirth pada tahun 1970. Sebuah **syntax diagram** terdiri dari tiga komponen yaitu nonterminal **symbol**, **terminal symbol** dan **directed edge**. 
+
+Bagian kiri dari **syntax diagram** adalah **nonterminal** dari **production rules** atau **LHS** dan bagian kanan dari **syntax diagram** adalah campuran dari **terminal**, **nonterminal** atau **RHS** dan **directed edge**. Untuk menerjemahkan sebuah **syntax rules** kedalam **syntax diagram** terdapat lima aturan diantaranya :
+
+
 
 ## Semantic 
 
@@ -505,3 +513,5 @@ Penggunaan notasi **parenthesis** pada **RHS rules EBNF** membuat **metalanguage
 [5] Levelt, "Finite Automata" *Introduction to The Theory of Formal Languages and Automata,* Amsterdam : John Benjamin Publishing Company, 2008. pp 51
 
 [6] Sebesta, Robert, "Describing Syntax and Semantic", *Concept of Programming Languages, 7th Edition,* Malaysia, : Pearson, 2016. pp 136 
+
+[7] Bansal, "Syntax & Semantic", Introduction to Programming Languages, USA : CRC Press, 2010. pp 89
