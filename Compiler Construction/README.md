@@ -609,4 +609,20 @@ Berdasarkan bahasa terdapat **english based programming language** dan **non-eng
                         <pernyataans> <Kurawal_kanan>
 ```
 
-![](C:\Users\Gun Gun Febrianza\Pictures\GGF-University\Compiler Construction\assets\rule5.png)
+![](assets/rule5.png)
+
+### < Spernyataan>
+
+```
+<spernyataan> : <pernyataan>+
+```
+
+![](assets/rule6.png)
+
+### < Pernyataan>
+
+```
+<pernyataan> : <deklarasi_variabel> | <metode_masukan_keluaran> | <penetapan_pernyataan> | <perulangan_pernyataan> | <percabangan_pernyataan> | <deklarasi_metode>
+```
+
+![](assets/rule7.png)
