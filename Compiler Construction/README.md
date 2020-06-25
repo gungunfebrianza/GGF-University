@@ -428,7 +428,7 @@ A = B * (A + C)
 
 **Parse Tree Representation**
 
-
+Setiap **internal node** yang ada di dalam **parse tree** diberi label dengan **nonterminal symbol**, setiap **leaf** diberi label dengan **terminal symbol**. Setiap **subtree** dari **parse tree** menggambarkan satu **abstraction** dari satu **sentence**.
 
 
 
