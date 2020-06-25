@@ -489,13 +489,25 @@ Representasi **Syntax Rules** dalam bentuk **Syntax Diagram**.
 **Semantic** menyibak makna **syntactically** dari sebuah **valid string** dalam sebuah bahasa. Sebuah **semantic** dalam bahasa pemrograman bisa dibedakan menjadi dua level yaitu **static semantic** dan **dynamic semantic**.
 
 1. **Static Semantic** atau **typing** digunakan untuk mendeteksi kesalahan dimana secara **syntactical** benar tetapi kegagalan eksekusi akan terjadi saat **runtime**. Pada **weak typing** atau **Loosely Typed Language**, variabel sebagai tempat untuk menyimpan informasi tidak memiliki **data types** yang spesifik karena hanya mampu membuat **generic variabel** tanpa harus menetapkan **data types** secara eksplisit. Berbeda dengan **strong typing** atau **Strongly Typed Language** variabel yang dibuat memiliki **data types** yang jelas seperti **integer**, **float**, **double** dan sebagainya. 
-2. 
+2. **Dynamic Semantic** menjelaskan sifat sebuah komputer dalam mengikuti saat sebuah program dieksekusi menggunakan suatu bahasa. Pada **dynamic semantic** terdapat **operational semantic** yang digunakan untuk menjelaskan makna sebuah **statement** atau program dengan melihat efek yang terjadi saat program berjalan pada mesin.
 
 
 
 ## Pragmatic
 
+**Pragmatic** menyinggung aspek pengguna bahasa baik secara psikologis dan fenomena sosial, seperti **utility** yang tersedia, sekup aplikasi, dan efek kepada pengguna. Untuk bahasa pemrograman, termasuk isu tentang kemudahan implementasi, efisiensi dari aplikasi, dan metodologi pemrograman. Hal hal yang mempengaruhinya adalah :
+
+1. Desain IDE (**Integrated Development Environment**)
+
+2. **Standard Library** atau **Library** 
+
+3. ***Ecosystem 3rd Party Libraries*** atau **package manager**.
+
+
+
 ## Compilation Process
+
+
 
 ### Source Code 
 
