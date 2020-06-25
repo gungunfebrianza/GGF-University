@@ -333,10 +333,20 @@ Sebuah **Grammar** terdiri dari empat bagian **< S,N,P,S>** :
 
 **Metalanguage** adalah sebuah bahasa yang digunakan untuk menggambarkan bahasa lain. 
 
-**Backus-Naur Form (BNF)** adalah sebuah **metalanguage**. Untuk membentuk **syntactic structure BNF** menggunakan **abstraction**. Sebagai contoh pada **assignment statement** (penetapan nilai) bahasa **java**, direpresentasikan dengan **abstraction** < assign>, defini aktual < assign> pada java adalah sebagai berikut.
+**Backus-Naur Form (BNF)** adalah sebuah **metalanguage**. Untuk membentuk **syntactic structure BNF** menggunakan **abstraction**. Sebagai contoh pada **assignment statement** (penetapan nilai) bahasa **java**, direpresentasikan dengan **abstraction** **< assign>**, defini aktual **< assign>** pada java adalah sebagai berikut.
 
 ```
 <assign> → <var> = <expression>
+```
+
+Teks yang berada disebelah kiri disebut dengan **LHS** (**Left-hand Side**) adalah **abstraction** yang didefinisikan. Teks yang ada disebelah kanan adalah **RHS** (**Right-hand Side**) terdiri dari gabungan sebuah **token**, **lexeme** dan referensi **abstraction** lainya. 
+
+Keseluruhanya disebut dengan **rule** atau **production**. 
+
+**Rule** ini bisa menspesifikasikan bahwa **< assign>** telah dijelaskan sebagai salah satu **abstraction** dari **< var>**, yang diikuti dengan **lexemes** = dan diikuti dengan **abstraction** dari **< expression>**, contoh satu **sentence syntactical structure** dari **rule** di atas adalah sebagai berikut.
+
+```
+Total = total1 + total2
 ```
 
 
