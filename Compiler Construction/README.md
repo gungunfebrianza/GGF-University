@@ -659,3 +659,45 @@ Berdasarkan bahasa terdapat **english based programming language** dan **non-eng
 ```
 
 ![](assets/rule10.png)
+
+### < Deklarasi_Metode>
+
+```
+<deklarasi_metode> : <ciri_akses>? <ciri>? <pengenal> <argumen> <kurawal_kiri> <spernyataan> <kurawal_kanan> |<ciri_akses>? <pengenal> <argumen> < kurawal_kiri> <spernyataan> <kurawal_kanan>
+```
+
+![](assets/rule11.png)
+
+### < Argumen>
+
+```
+<argumen> : <kurung_kiri> <kurung_kanan> | 
+                      <kurung_kiri? (<tipe_primitif> <pengenal> <koma>)+
+                      <tipe_primitif> <pengenal> <kurung_kanan>
+```
+
+![](assets/rule12.png)
+
+### < Deklarasi_Variabel>
+
+```
+<deklarasi_variabel> : <ciri_akses>? <ciri>? <tipe_primitif>
+             <pengenal> <titik_koma> | <ciri_akses>? 
+             <ciri>? <tipe_primitif><pengenal> <sama_dengan> 
+             <ekspresi > <titik_koma> | <ciri_akses>?   
+             <ciri>? <tipe_primitif > < pengenal> '[' 
+             <ekspresi> ']' <titik_koma>
+```
+
+![](assets/rule13.png)
+
+### < Metode_IO>
+
+```
+<metode_IO> : <metode_masukan_keluaran> <kurung_kiri> <pengenal> 
+                          <kurung_kanan> <titik_koma> | 
+                          < metode_masukan_keluaran ><kurung_kiri> <teks> 
+                          <kurung_kanan> <titik_koma>
+```
+
+![](assets/rule14.png)
