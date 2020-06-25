@@ -434,6 +434,10 @@ Setiap **internal node** yang ada di dalam **parse tree** diberi label dengan **
 
 ## Extended Backus Naus Form (EBNF) 
 
+Pengembangan **Metalanguage** dari **BNF** adalah **Extended Backus Naur Form (EBNF)**, pada versi **extended** terdapat peningkatan kemampuan dalam **readability** dan **write-ability**. Terdapat tiga ekstensi tambahan pada **EBNF** yaitu penambahan notasi **bracket**, **brace** dan **parenthesis**, pengaruh notasinya bisa dilihat sebagai berikut.
+
+
+
 ### EBNF Notation
 
 ## Syntax Diagram 
