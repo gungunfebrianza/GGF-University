@@ -355,6 +355,19 @@ Total = total1 + total2
 
 Sebagai contoh, pada bahasa **Java** sebuah **if statement** bisa dijelaskan dengan **rules** sebagai berikut.
 
+```
+<if_stmt> → if ( <logic_expr> ) <stmt>
+<if_stmt> → if ( <logic_expr> ) <stmt> else <stmt>
+```
+
+Atau dengan **rule** :
+
+```
+<if_stmt> → if ( <logic_expr> ) <stmt> | if ( <logic_expr> ) <stmt> else <stmt>
+```
+
+
+
 ## Derivation 
 
 ## Parse Tree
