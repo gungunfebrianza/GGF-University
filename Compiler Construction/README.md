@@ -626,3 +626,36 @@ Berdasarkan bahasa terdapat **english based programming language** dan **non-eng
 ```
 
 ![](assets/rule7.png)
+
+### < Penetapan_Pernyataan>
+
+```
+<penetapan_pernyataan> : <pengenal> <sama_dengan> <ekspresi> <titik_koma> 
+```
+
+![](assets/rule8.png)
+
+### < Perulangan_Pernyataan>
+
+```
+<perulangan_pernyataan> : 'saat' <kurung_kiri> <ekspresi_logika> <kurung_kanan> <kurawal_kiri> <pernyataan> <kurawal_kanan> 'lakukan'
+```
+
+![](assets/rule9a.png)
+
+![](assets/rule9b.png)
+
+### < Percabangan_Pernyataan>
+
+```
+<percabangan_pernyataan>  : 'jika’ <kurung_kiri> <ekspresi_logika> 
+                                               <kurung_kanan> <kurawal_kiri>  
+                                               <spernyataan> <kurawal_kanan>
+                                               | 'jika' <kurung_kiri> <ekspresi_logika> 
+                                               <kurung_kanan> <kurawal_kiri> 
+                                               <spernyataan> <kurawal_kanan> 'maka' 
+                                               <kurawal_kiri> <spernyataan> 
+                                               <kurawal_kanan> 
+```
+
+![](assets/rule10.png)
