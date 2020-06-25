@@ -408,6 +408,12 @@ Pada **Grammar** di atas hanya terdapat satu bentuk **Statement** yaitu **assign
 | 8     | => A = B * ( A + < id>)       |
 | 9     | => A = B * ( A + C )          |
 
+**Derivation** ini, diawali dengan **Start Symbol**, yaitu **< program>**. 
+
+**Symbol =>** dibaca “**derives**.” 
+
+Setiap **strings** di dalam **derivation**, termasuk **< program>**, disebut dengan **sentential form**. Pada **derivation** ini, **nonterminal** yang diganti selalu **leftmost** **nonterminal** dari **sentential form** sebelumnya. **Derivations** yang menggunakan penggantian seperti ini dikenal dengan sebutan **leftmost derivations**. **Derivation** akan berlanjut terus sampai **sentential form** tidak memiliki **nonterminals**. **Sentential form**, terdiri dari hanya **terminals**, atau **lexemes**, yang dihasilkan dari **sentence**.
+
 
 
 ## Parse Tree
