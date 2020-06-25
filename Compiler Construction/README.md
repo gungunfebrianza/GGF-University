@@ -331,6 +331,16 @@ Sebuah **Grammar** terdiri dari empat bagian **< S,N,P,S>** :
 
 ## Metalanguage 
 
+**Metalanguage** adalah sebuah bahasa yang digunakan untuk menggambarkan bahasa lain. 
+
+**Backus-Naur Form (BNF)** adalah sebuah **metalanguage**. Untuk membentuk **syntactic structure BNF** menggunakan **abstraction**. Sebagai contoh pada **assignment statement** (penetapan nilai) bahasa **java**, direpresentasikan dengan **abstraction** <assign>, defini aktual <assign> pada java adalah sebagai berikut.
+
+```
+<assign> → <var> = <expression>
+```
+
+
+
 ## Derivation 
 
 ## Parse Tree
