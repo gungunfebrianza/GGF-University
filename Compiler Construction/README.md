@@ -701,3 +701,38 @@ Berdasarkan bahasa terdapat **english based programming language** dan **non-eng
 ```
 
 ![](assets/rule14.png)
+
+### < Ekspresi>
+
+```
+<ekspresi> : <ekspresi> ('*'|'/'|'^'|'-'|'+'|' MOD ') < ekspresi > | <kurung_kiri>
+         <ekspresi> <kurung_kanan> | <fungsi_matematika>  
+         <kurung_kiri> <ekspresi> <kurung_kanan> | <bilangan_bulat> | 
+         <teks> | <pecahan> | 'benar' | 'salah'
+```
+
+![](assets/rule15.png)
+
+### < Ekspresi_Logika>
+
+```
+<ekspresi_logika> : <ekspresi_logika> (‘<’ | ‘>’ | ‘>=’ | ‘<=’ | ‘==’) <ekspresi_logika>
+```
+
+![](assets/rule16.png)
+
+### < Ciri_Akses>
+
+```
+<ciri_akses> : 'publik' | 'privat' | 'terlindung'
+```
+
+![](assets/rule17.png)
+
+### < Ciri>
+
+```
+<ciri> : ‘statis’ | ‘baru’ | ‘timpa’
+```
+
+![](assets/rule18.png)
