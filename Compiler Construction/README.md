@@ -27,6 +27,19 @@
 8. Parse Tree
 9. EBNF
 10. Syntax Diagram
+11. Semantic
+12. Pragmatic
+13. Compilation Process
+    - Source Code
+    - Lexical Analyzer
+    - Syntax Analyzer
+    - Symbol Table
+    - Intermediate Code Generator
+    - Semantic Analyzer
+    - Optimization
+    - Code Generation
+
+Bibliography
 
 ## Setup Development Tools
 
