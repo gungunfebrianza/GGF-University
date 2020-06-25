@@ -456,7 +456,15 @@ Notasi **brace** pada **EBNF**
 
 Penggunaan notasi **brace** pada **RHS rules EBNF** juga membuat **metalanguage** dari **Extended Backus Naur Form (EBNF)** lebih hemat karena tidak perlu melakukan **recursion** dan membuat lebih dari satu **rules**.
 
+### EBNF Parenthesis Notation
 
+Notasi **parenthesis** pada **EBNF**
+
+| EBNF    | < term> → < term> (*\|/\|%) < factor>                        |
+| ------- | ------------------------------------------------------------ |
+| BN**F** | **< term> → < term> * < factor> \| < term> / < factor> \| < term> % < factor>** |
+
+Penggunaan notasi **parenthesis** pada **RHS rules EBNF** membuat **metalanguage** dari **Extended Backus Naur Form (EBNF)** mampu menentukan **grouping** pada suatu **terminal** atau **nonterminal**.  
 
 ## Syntax Diagram 
 
