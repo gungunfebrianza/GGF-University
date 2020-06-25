@@ -380,6 +380,14 @@ Pada matematika panjang sebuah variable dinotasikan di dalam **ellipsis** (…);
 
 ## Derivation 
 
+Sebuah **grammar** bekerja seperti **generative device** untuk mendefinisikan sebuah bahasa. Kalimat dari bahasa mampu dihasilkan melalui urutan aplikasi  dari sebuah **rule**, diawali dengan **special nonterminal** dari **grammar** yang dikenal dengan **start symbol**. Urutan dari aplikasi **rule** ini disebut dengan **derivation**. 
+
+Di dalam sebuah **grammar** bahasa pemrograman yang sudah lengkap, **start symbol** merepresentasikan program yang telah komplit. Contoh **grammar** X yang akan digunakan untuk mengilustrasikan **derivation**.
+
+
+
+
+
 ## Parse Tree
 
 ## Extended Backus Naus Form (EBNF) 
